@@ -1,0 +1,78 @@
+/**
+ * footer css
+ **/
+.footer-wrap {
+	width: 100%;
+	overflow: hidden;
+	margin-top: 20px;
+	background-color: #fff;
+}
+
+.footer-container {
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.footer-container ul li {
+	height: 94px;
+	display: inline-block;
+	width: 12%;
+	text-align: center;
+}
+
+.footer-link {
+	width: 48px;
+	height: 48px;
+	margin: 0 auto;
+	background-image: url('/public/images/footer_icon.png');
+}
+
+.footer-icon1 {
+	background-position: 0 0;
+}
+
+.footer-icon2 {
+	background-position: 0 -49px;
+}
+
+.footer-icon3 {
+	background-position: 0 -98px;
+}
+
+.footer-icon4 {
+	background-position: 0 -147px;
+}
+
+.footer-icon5 {
+	background-position: 0 -196px;
+}
+
+.footer-icon6 {
+	background-position: 0 -245px;
+}
+
+.footer-icon7 {
+	background-position: 0 -294px;
+}
+
+.footer-icon8 {
+	background-position: 0 343px;
+}
+
+.footer-content{
+	text-align: center;
+	margin-top: 40px;
+}
+
+.footer-content dt{
+	display: inline-block;
+	width:60px;
+	height: 20px;
+	line-height: 20px;
+	margin-left: 20px;
+}
+
+.footer-content dt a:hover{
+	color: red;
+}

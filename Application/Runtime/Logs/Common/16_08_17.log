@@ -1,0 +1,84 @@
+[ 2016-08-17T01:26:34+08:00 ] 192.168.0.102 /member/getValidCode?0.2546160633210093
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002167s ]
+ERR: 无法加载模块:Member
+
+[ 2016-08-17T02:47:19+08:00 ] 192.168.0.102 /public/images/login_banner.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002193s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-17T02:47:20+08:00 ] 192.168.0.102 /public/images/login_banner.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003208s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-17T02:48:05+08:00 ] 192.168.0.102 /public/images/login_banner.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002791s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-17T02:49:22+08:00 ] 192.168.0.102 /public/images/login_banner.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002572s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-17T02:49:24+08:00 ] 192.168.0.102 /public/images/login_banner.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003322s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-17T02:49:57+08:00 ] 192.168.0.102 /public/images/login_banner.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003114s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-17T02:50:11+08:00 ] 192.168.0.102 /public/images/login_banner.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000206s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001902s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-17T02:50:13+08:00 ] 192.168.0.102 /public/images/login_banner.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005901s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-17T02:50:17+08:00 ] 192.168.0.102 /public/images/login_banner.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003132s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-17T03:12:36+08:00 ] 192.168.0.102 /public/images/login_logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003679s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-17T03:12:39+08:00 ] 192.168.0.102 /public/images/login_logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006944s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-17T03:26:07+08:00 ] 192.168.0.102 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000131s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004794s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-08-17T03:26:11+08:00 ] 192.168.0.102 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004393s ]
+ERR: 无法加载模块:Favicon
+

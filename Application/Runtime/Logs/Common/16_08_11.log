@@ -1,0 +1,42 @@
+[ 2016-08-11T00:57:20+08:00 ] 192.168.0.103 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002985s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-08-11T01:40:18+08:00 ] 192.168.0.103 /public/images/product_icon.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003041s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-11T01:40:20+08:00 ] 192.168.0.103 /public/images/product_icon.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001858s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-11T01:41:07+08:00 ] 192.168.0.103 /public/images/product_icon.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005768s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-11T02:15:35+08:00 ] 192.168.0.103 /footer-icon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012045s ]
+ERR: 无法加载模块:Footer-icon
+
+[ 2016-08-11T02:16:00+08:00 ] 192.168.0.103 /footer-icon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006761s ]
+ERR: 无法加载模块:Footer-icon
+
+[ 2016-08-11T23:23:03+08:00 ] 192.168.0.102 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001998s ]
+ERR: 无法加载模块:Favicon
+

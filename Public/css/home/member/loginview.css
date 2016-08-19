@@ -1,0 +1,116 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-family: "微软雅黑","Microsoft YaHei";
+	background-color: #fff;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	color:#e4393c;
+}
+
+.login-tips-container{
+}
+
+.login-tips{
+	margin: 0 auto;
+	width: 1000px;
+	height: 100px;
+}
+
+.login-tips span {
+	vertical-align: middle;
+	display: inline-block;
+	padding-left: 25px;
+	line-height: 64px;
+	margin: 18px 0 18px 10px;
+	border-left: 2px solid #888;
+	font-size: 26px;
+	font-weight: 400;
+	color: #888;
+}
+
+.login-wrap {
+	width: 100%;
+	height: 550px;
+	background-image: url('/public/images/login-banner.jpg');
+}
+
+.login-container{
+	margin: 0 auto;
+	width: 1000px;
+	overflow: hidden;
+}
+
+.login-box{
+	width: 320px;
+	height: 400px;
+	font-size:14px;
+	float: right;
+	border: 1px solid #f2f2f2;
+	background-color: #fff;
+	margin-top: 75px;
+}
+.login-adv{
+	display: block;
+	float: left;
+	height: 436px;
+	overflow: hidden;
+}
+
+.login-box p{
+	margin-left: 20px;
+}
+.login-box .label-control{
+	display: block;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	width: 60px;
+}
+.login-box .text-control{
+	width: 250px;
+	height: 40px;
+	line-height: 20px;
+	padding-left: 5px;
+	border: 1px solid #f2f2f2;
+}
+
+.verify_code img{
+	display: inline-block;
+	vertical-align:middle;
+	height: 40px;
+}
+
+.login-botton{
+	display: block;
+	width: 250px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #e4393c;
+	font-size: 16px;
+	color: #fefefe;
+	text-align: center;
+	border: 1px solid #f2f2f2;
+	border-radius: 5px;
+	margin-top:20px;
+}
+
+.btn-container a {
+	text-decoration: none;
+	color: #fefefe;
+}
+
+.btn-container .error-tips {
+	display: block;
+	width: 250px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 16px;
+	color: red;
+}

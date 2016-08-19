@@ -1,0 +1,811 @@
+[ 2016-07-27T23:32:12+08:00 ] 192.168.0.100 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016357s ]
+NOTIC: [8] Undefined variable: user_info /data/html/tp3.2/Application/Home/Controller/IndexController.class.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.032634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.032779s ]
+
+[ 2016-07-27T23:32:14+08:00 ] 192.168.0.100 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003560s ]
+NOTIC: [8] Undefined variable: user_info /data/html/tp3.2/Application/Home/Controller/IndexController.class.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003808s ]
+
+[ 2016-07-27T23:32:18+08:00 ] 192.168.0.100 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005806s ]
+NOTIC: [8] Undefined variable: user_info /data/html/tp3.2/Application/Home/Controller/IndexController.class.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003213s ]
+
+[ 2016-07-27T23:32:25+08:00 ] 192.168.0.100 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003454s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000333s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.473008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.473189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010866s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003960s ]
+
+[ 2016-07-27T23:32:28+08:00 ] 192.168.0.100 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003876s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003624s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000344s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003419s ]
+
+[ 2016-07-27T23:32:30+08:00 ] 192.168.0.100 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004894s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000330s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.249958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.250133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002866s ]
+
+[ 2016-07-27T23:33:04+08:00 ] 192.168.0.100 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004723s ]
+ERR: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.103' (4)
+
+[ 2016-07-27T23:33:34+08:00 ] 192.168.0.100 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003396s ]
+ERR: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.103' (4)
+
+[ 2016-07-27T23:34:04+08:00 ] 192.168.0.100 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004321s ]
+ERR: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.103' (4)
+
+[ 2016-07-27T23:34:34+08:00 ] 192.168.0.100 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003009s ]
+ERR: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.103' (4)
+
+[ 2016-07-27T23:35:04+08:00 ] 192.168.0.100 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002700s ]
+ERR: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.103' (4)
+
+[ 2016-07-27T23:35:34+08:00 ] 192.168.0.100 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002348s ]
+ERR: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.103' (4)
+
+[ 2016-07-27T23:36:04+08:00 ] 192.168.0.100 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003455s ]
+ERR: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.103' (4)
+
+[ 2016-07-27T23:36:34+08:00 ] 192.168.0.100 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002326s ]
+ERR: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.103' (4)
+
+[ 2016-07-27T23:37:04+08:00 ] 192.168.0.100 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000787s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005500s ]
+ERR: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.103' (4)
+
+[ 2016-07-27T23:37:34+08:00 ] 192.168.0.100 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002880s ]
+ERR: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.103' (4)
+
+[ 2016-07-27T23:38:04+08:00 ] 192.168.0.100 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000189s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002585s ]
+ERR: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.103' (4)
+
+[ 2016-07-27T23:38:35+08:00 ] 192.168.0.100 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002970s ]
+ERR: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.103' (4)
+
+[ 2016-07-27T23:39:05+08:00 ] 192.168.0.100 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002713s ]
+ERR: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.103' (4)
+
+[ 2016-07-27T23:39:35+08:00 ] 192.168.0.100 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003229s ]
+ERR: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.103' (4)
+
+[ 2016-07-27T23:40:05+08:00 ] 192.168.0.100 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003141s ]
+ERR: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.103' (4)
+
+[ 2016-07-27T23:40:35+08:00 ] 192.168.0.100 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002453s ]
+ERR: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.103' (4)
+
+[ 2016-07-27T23:41:05+08:00 ] 192.168.0.100 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003908s ]
+ERR: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.103' (4)
+
+[ 2016-07-27T23:41:35+08:00 ] 192.168.0.100 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004698s ]
+ERR: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.103' (4)
+
+[ 2016-07-27T23:42:05+08:00 ] 192.168.0.100 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004071s ]
+NOTIC: [8] Undefined index: username /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 17 行.
+NOTIC: [8] Undefined index: password /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 18 行.
+ERR: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.103' (4)
+
+[ 2016-07-27T23:42:05+08:00 ] 192.168.0.100 /index.php/Home/Member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003377s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038753s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003758s ]
+
+[ 2016-07-27T23:42:06+08:00 ] 192.168.0.100 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006373s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.371295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.371467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001798s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001942s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002696s ]
+
+[ 2016-07-27T23:42:36+08:00 ] 192.168.0.100 /index.php/home/member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003288s ]
+NOTIC: [8] Undefined index: username /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 17 行.
+NOTIC: [8] Undefined index: password /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 18 行.
+ERR: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.103' (4)
+
+[ 2016-07-27T23:42:36+08:00 ] 192.168.0.100 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003210s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003691s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004145s ]
+
+[ 2016-07-27T23:42:36+08:00 ] 192.168.0.100 /index.php/Home/Member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003205s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030878s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001855s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001956s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003381s ]
+
+[ 2016-07-27T23:42:36+08:00 ] 192.168.0.100 /index.php/Home/Member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006467s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027772s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001720s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001822s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002725s ]
+
+[ 2016-07-27T23:42:36+08:00 ] 192.168.0.100 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003249s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000284s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030107s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001718s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002988s ]
+
+[ 2016-07-27T23:42:36+08:00 ] 192.168.0.100 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003475s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001781s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002774s ]
+
+[ 2016-07-27T23:42:36+08:00 ] 192.168.0.100 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003894s ]
+NOTIC: [8] Undefined variable: user_info /data/html/tp3.2/Application/Home/Controller/IndexController.class.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002796s ]
+
+[ 2016-07-27T23:42:36+08:00 ] 192.168.0.100 /index.php?home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003642s ]
+NOTIC: [8] Undefined variable: user_info /data/html/tp3.2/Application/Home/Controller/IndexController.class.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002537s ]
+
+[ 2016-07-27T23:42:36+08:00 ] 192.168.0.100 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003935s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000359s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001906s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003289s ]
+
+[ 2016-07-27T23:42:36+08:00 ] 192.168.0.100 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004155s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.123074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.123280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001989s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002554s ]
+
+[ 2016-07-27T23:42:36+08:00 ] 192.168.0.100 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004091s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001895s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001997s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003441s ]
+
+[ 2016-07-27T23:42:36+08:00 ] 192.168.0.100 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004362s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031473s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001854s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002970s ]
+
+[ 2016-07-27T23:42:36+08:00 ] 192.168.0.100 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001703s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002387s ]
+
+[ 2016-07-27T23:48:04+08:00 ] 192.168.0.100 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004071s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004013s ]
+
+[ 2016-07-27T23:48:08+08:00 ] 192.168.0.100 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004072s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003315s ]
+
+[ 2016-07-27T23:48:41+08:00 ] 192.168.0.100 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003960s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003519s ]
+ERR: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.103' (4)
+
+[ 2016-07-27T23:49:11+08:00 ] 192.168.0.100 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004290s ]
+NOTIC: [8] Undefined index: username /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 17 行.
+NOTIC: [8] Undefined index: password /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 18 行.
+ERR: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.103' (4)
+
+[ 2016-07-27T23:50:53+08:00 ] 192.168.0.100 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003720s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038729s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004341s ]
+
+[ 2016-07-27T23:51:24+08:00 ] 192.168.0.100 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003721s ]
+ERR: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.103' (4)
+
+[ 2016-07-27T23:51:24+08:00 ] 192.168.0.100 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003088s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000342s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037737s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003948s ]
+
+[ 2016-07-27T23:51:24+08:00 ] 192.168.0.100 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003760s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030611s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001952s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002432s ]
+
+[ 2016-07-27T23:51:24+08:00 ] 192.168.0.100 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004065s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000325s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001721s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001825s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003499s ]
+
+[ 2016-07-27T23:52:36+08:00 ] 192.168.0.100 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004412s ]
+ERR: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.103' (4)
+
+[ 2016-07-27T23:53:06+08:00 ] 192.168.0.100 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003741s ]
+ERR: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.1.103' (4)
+
+[ 2016-07-27T23:54:12+08:00 ] 192.168.0.100 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035441s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003674s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003932s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004386s ]
+
+[ 2016-07-27T23:54:13+08:00 ] 192.168.0.100 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004097s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `member` LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2016-07-27T23:58:17+08:00 ] 192.168.0.100 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003519s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046075s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003926s ]
+
+[ 2016-07-27T23:58:19+08:00 ] 192.168.0.100 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003921s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `member` LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2016-07-27T23:58:25+08:00 ] 192.168.0.100 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004331s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `member` LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2016-07-27T23:58:30+08:00 ] 192.168.0.100 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003284s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `member` LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2016-07-27T23:58:34+08:00 ] 192.168.0.100 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003743s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `member` LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2016-07-27T23:59:17+08:00 ] 192.168.0.100 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004286s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `member` LIMIT 1   [ RunTime:0.0012s ]
+

@@ -1,0 +1,1019 @@
+[ 2016-07-30T21:10:52+08:00 ] 192.168.1.103 /index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003139s ]
+
+[ 2016-07-30T21:10:52+08:00 ] 192.168.1.103 /index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002387s ]
+ERR: 无法加载模块:Index
+
+[ 2016-07-30T21:18:52+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005298s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:18:52+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010217s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:18:52+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009981s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:18:52+08:00 ] 192.168.1.103 /public/images/misc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001707s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:22:00+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004558s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:22:00+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010571s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:22:00+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007748s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:22:00+08:00 ] 192.168.1.103 /public/images/misc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005916s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:22:00+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004264s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:22:02+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004895s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:22:02+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003280s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:22:02+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005701s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:22:02+08:00 ] 192.168.1.103 /public/images/misc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002859s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:22:02+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002187s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:22:04+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005043s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:22:04+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009873s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:22:04+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011089s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:22:04+08:00 ] 192.168.1.103 /public/images/misc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002769s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:22:04+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001891s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:22:06+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005686s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:22:06+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008473s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:22:06+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004291s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:22:06+08:00 ] 192.168.1.103 /public/images/misc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002358s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:22:07+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004798s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:22:07+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006355s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:22:07+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005902s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:22:07+08:00 ] 192.168.1.103 /public/images/misc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002336s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:22:08+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000262s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003839s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:22:08+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004307s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:22:08+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000339s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004418s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:22:08+08:00 ] 192.168.1.103 /public/images/misc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002754s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:26:44+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005898s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:26:44+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004951s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:26:44+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010887s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:26:44+08:00 ] 192.168.1.103 /public/images/misc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002502s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:26:45+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003879s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:26:45+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003486s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:26:45+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000194s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003574s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:26:45+08:00 ] 192.168.1.103 /public/images/misc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001895s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:26:48+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008633s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:26:48+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003903s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:26:48+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011246s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:26:48+08:00 ] 192.168.1.103 /public/images/misc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002134s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:26:48+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004036s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:27:04+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005815s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:27:04+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006697s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:27:04+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010186s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:27:04+08:00 ] 192.168.1.103 /public/images/misc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000793s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003777s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:27:04+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003378s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:27:07+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004430s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:27:07+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005814s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:27:07+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003963s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:27:07+08:00 ] 192.168.1.103 /public/images/misc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002421s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:27:09+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000584s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008987s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:27:09+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.003860s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009231s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:27:09+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006455s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:27:09+08:00 ] 192.168.1.103 /public/images/misc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002188s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:27:09+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002432s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:27:10+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007402s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:27:10+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009778s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:27:10+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006231s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:27:10+08:00 ] 192.168.1.103 /public/images/misc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002304s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:27:11+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006186s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:27:11+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006738s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:27:12+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011366s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:27:12+08:00 ] 192.168.1.103 /public/images/misc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002604s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:27:12+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002252s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:27:17+08:00 ] 192.168.1.103 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003310s ]
+ERR: 无法加载模块:Index.php
+
+[ 2016-07-30T21:27:22+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008957s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:27:22+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012834s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:27:22+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005230s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:27:23+08:00 ] 192.168.1.103 /public/images/misc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000251s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003339s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:27:23+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003744s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:27:23+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005049s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:27:23+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005425s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:27:23+08:00 ] 192.168.1.103 /public/images/misc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001270s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:27:23+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001800s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:27:23+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002298s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:27:24+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001909s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:29:32+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002951s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:31:07+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004121s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:31:08+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002574s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:31:08+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009260s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:31:08+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007695s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:31:08+08:00 ] 192.168.1.103 /public/images/misc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002247s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:31:08+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002097s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:31:10+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003643s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:31:10+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009348s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:31:10+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002488s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005386s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:31:10+08:00 ] 192.168.1.103 /public/images/misc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002100s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:31:10+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002676s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:31:12+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007328s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:31:12+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004930s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:31:12+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006124s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:31:13+08:00 ] 192.168.1.103 /public/images/misc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002170s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:31:48+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001331s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006653s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:31:48+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000771s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006395s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:31:48+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007976s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:31:48+08:00 ] 192.168.1.103 /public/images/misc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002179s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:31:48+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004068s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:31:49+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002732s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007797s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:31:49+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000885s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006448s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:31:49+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008294s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:31:49+08:00 ] 192.168.1.103 /public/images/misc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:20+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000131s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006284s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:20+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005886s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:20+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006666s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:20+08:00 ] 192.168.1.103 /public/images/misc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002133s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:20+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002830s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:21+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000367s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013187s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:21+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007380s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:21+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006329s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:21+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004034s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:21+08:00 ] 192.168.1.103 /public/images/misc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:23+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000983s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008054s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:23+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000363s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006673s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:23+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009928s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:23+08:00 ] 192.168.1.103 /public/images/misc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003984s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:23+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003440s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:25+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005791s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:25+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004010s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:25+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004468s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:26+08:00 ] 192.168.1.103 /public/images/misc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005106s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:26+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002517s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:30+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.207494s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:30+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.206557s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:30+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.208039s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:30+08:00 ] 192.168.1.103 /public/images/misc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002350s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:30+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002272s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:31+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000924s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006221s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:31+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008156s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:31+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010265s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:31+08:00 ] 192.168.1.103 /public/images/misc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002805s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:55+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.004162s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012594s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:55+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005043s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:55+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006419s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:56+08:00 ] 192.168.1.103 /public/images/misc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000155s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002372s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:56+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002203s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:56+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001932s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:56+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003506s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:58+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003849s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:58+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002919s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:58+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005852s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:58+08:00 ] 192.168.1.103 /public/images/misc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002981s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:58+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003003s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:59+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004760s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:59+08:00 ] 192.168.1.103 /public/bootstrap-3.3.4-dist/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009200s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:32:59+08:00 ] 192.168.1.103 /public/images/login-adv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006798s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:33:00+08:00 ] 192.168.1.103 /public/images/misc.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003311s ]
+ERR: 无法加载模块:Public
+
+[ 2016-07-30T21:33:06+08:00 ] 192.168.1.103 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002963s ]
+ERR: 无法加载模块:Index.php
+
+[ 2016-07-30T21:33:16+08:00 ] 192.168.1.103 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003261s ]
+ERR: 无法加载模块:Index.php
+
+[ 2016-07-30T21:33:17+08:00 ] 192.168.1.103 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003042s ]
+ERR: 无法加载模块:Index.php
+
+[ 2016-07-30T21:33:18+08:00 ] 192.168.1.103 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002074s ]
+ERR: 无法加载模块:Index.php
+
+[ 2016-07-30T21:33:18+08:00 ] 192.168.1.103 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002919s ]
+ERR: 无法加载模块:Index.php
+
+[ 2016-07-30T21:33:18+08:00 ] 192.168.1.103 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002189s ]
+ERR: 无法加载模块:Index.php
+
+[ 2016-07-30T21:33:18+08:00 ] 192.168.1.103 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002632s ]
+ERR: 无法加载模块:Index.php
+
+[ 2016-07-30T21:33:19+08:00 ] 192.168.1.103 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002303s ]
+ERR: 无法加载模块:Index.php
+
+[ 2016-07-30T21:33:19+08:00 ] 192.168.1.103 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002573s ]
+ERR: 无法加载模块:Index.php
+
+[ 2016-07-30T21:33:19+08:00 ] 192.168.1.103 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002071s ]
+ERR: 无法加载模块:Index.php
+
+[ 2016-07-30T21:33:20+08:00 ] 192.168.1.103 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004955s ]
+ERR: 无法加载模块:Index.php
+
+[ 2016-07-30T21:56:42+08:00 ] 192.168.1.103 /member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002775s ]
+ERR: 无法加载模块:Member
+
+[ 2016-07-30T21:56:44+08:00 ] 192.168.1.103 /member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003535s ]
+ERR: 无法加载模块:Member
+
+[ 2016-07-30T21:56:44+08:00 ] 192.168.1.103 /member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001542s ]
+ERR: 无法加载模块:Member
+
+[ 2016-07-30T21:56:44+08:00 ] 192.168.1.103 /member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002754s ]
+ERR: 无法加载模块:Member
+
+[ 2016-07-30T21:56:44+08:00 ] 192.168.1.103 /member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002963s ]
+ERR: 无法加载模块:Member
+
+[ 2016-07-30T21:56:45+08:00 ] 192.168.1.103 /member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003983s ]
+ERR: 无法加载模块:Member
+
+[ 2016-07-30T21:56:45+08:00 ] 192.168.1.103 /member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003777s ]
+ERR: 无法加载模块:Member
+
+[ 2016-07-30T21:56:55+08:00 ] 192.168.1.103 /home.member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006459s ]
+ERR: 无法加载模块:Home.member
+

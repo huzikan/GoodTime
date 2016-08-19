@@ -1,0 +1,122 @@
+.left-float {
+    float: left;
+}
+
+.right-float{
+    float: right;
+}
+
+.top-wrap {
+    height: 32px;
+    margin: 0 auto;
+    line-height: 32px;
+    background-color: #fff;
+}
+
+.top-wrap a:hover{
+    color:red;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.site-top {
+    width:1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo-container {
+    width:300px;
+    height: 32px;
+    float: left;
+}
+
+.logo-container a {
+    height: 32px;
+    width: 70px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.site-link{
+    text-decoration: none;
+    color: #f9f9f9;
+}
+
+.site-desc {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.sitemap-container {
+    float: right;
+    overflow: hidden;
+}
+
+.sitemap-container ul{
+    display: inline;
+}
+
+.sitemap-container li{
+    float: left;
+}
+
+.sitemap-container a {
+    height: 20px;
+    margin-left: 10px;
+    padding-right: 10px;
+}
+
+.sitemap-container .split{
+    border-right: 1px solid #848887;
+}
+
+.header-nav-wrap {
+    height: 80px;
+    margin: 0 auto;
+    line-height: 80px;
+    background-color: #2e72a6;
+}
+
+.nav-container {
+    width:1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.nav-logo {
+    width: 100px;
+    float: left;
+}
+
+.header-nav {
+    float: right;
+}
+
+.header-nav ul {
+    display: inline;
+}
+
+.header-nav li {
+    font-size: 18px;
+    line-height: 80px;
+    width:120px;
+    float: left;
+    text-align: center;
+}
+
+.header-nav a {
+    width:120px;
+    margin-top: 25px;
+    line-height: 30px;
+    display: inline-block;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.header-nav-cur {
+    border-color: #f60;
+    background-color: #f60;
+    color: #fff;
+}

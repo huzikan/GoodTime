@@ -1,0 +1,144 @@
+[ 2016-08-09T00:51:42+08:00 ] 192.168.0.101 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002737s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-08-09T00:51:57+08:00 ] 192.168.0.101 /member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003216s ]
+ERR: 无法加载模块:Member
+
+[ 2016-08-09T00:58:21+08:00 ] 192.168.0.101 /public/image/goodtime_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002853s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-09T00:58:21+08:00 ] 192.168.0.101 /public/image/nav_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004908s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-09T00:58:30+08:00 ] 192.168.0.101 /public/image/nav_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004845s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-09T00:58:30+08:00 ] 192.168.0.101 /public/image/goodtime_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000207s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002967s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-09T01:46:48+08:00 ] 192.168.0.101 /public/images/ad_top.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009922s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-09T01:46:48+08:00 ] 192.168.0.101 /public/images/ad_bottom.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011761s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-09T01:46:50+08:00 ] 192.168.0.101 /public/images/ad_bottom.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010508s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-09T01:46:50+08:00 ] 192.168.0.101 /public/images/ad_top.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003238s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-09T01:47:15+08:00 ] 192.168.0.101 /public/images/ad_top.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003998s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-09T01:47:15+08:00 ] 192.168.0.101 /public/images/ad_bottom.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002608s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-09T01:47:17+08:00 ] 192.168.0.101 /public/images/ad_bottom.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005913s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-09T01:47:17+08:00 ] 192.168.0.101 /public/images/ad_top.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004012s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-09T01:47:48+08:00 ] 192.168.0.101 /public/images/ad_bottom.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008447s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-09T01:47:48+08:00 ] 192.168.0.101 /public/images/ad_top.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006214s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-09T01:47:49+08:00 ] 192.168.0.101 /public/images/ad_bottom.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004369s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-09T01:47:49+08:00 ] 192.168.0.101 /public/images/ad_top.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004304s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-09T01:47:50+08:00 ] 192.168.0.101 /public/images/ad_top.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000284s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003250s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-09T01:47:50+08:00 ] 192.168.0.101 /public/images/ad_bottom.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005861s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-09T01:47:51+08:00 ] 192.168.0.101 /public/images/ad_top.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000199s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003618s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-09T01:47:51+08:00 ] 192.168.0.101 /public/images/ad_bottom.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003864s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-09T01:47:51+08:00 ] 192.168.0.101 /public/images/ad_top.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007991s ]
+ERR: 无法加载模块:Public
+
+[ 2016-08-09T01:47:51+08:00 ] 192.168.0.101 /public/images/ad_bottom.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002051s ]
+ERR: 无法加载模块:Public
+

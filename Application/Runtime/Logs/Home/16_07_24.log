@@ -1,0 +1,898 @@
+[ 2016-07-24T00:01:29+08:00 ] 192.168.1.103 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002708s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002658s ]
+
+[ 2016-07-24T00:01:39+08:00 ] 192.168.1.103 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004271s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039890s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005364s ]
+
+[ 2016-07-24T00:01:40+08:00 ] 192.168.1.103 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004528s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001916s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002984s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003163s ]
+
+[ 2016-07-24T00:01:41+08:00 ] 192.168.1.103 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003249s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002910s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003444s ]
+
+[ 2016-07-24T00:02:02+08:00 ] 192.168.1.103 /index.php/Home/member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004417s ]
+NOTIC: [8] Undefined index: username /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 17 行.
+NOTIC: [8] Undefined index: password /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `member` LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2016-07-24T00:02:34+08:00 ] 192.168.1.103 /index.php/Home/member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005026s ]
+NOTIC: [8] Undefined index: username /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 17 行.
+NOTIC: [8] Undefined index: password /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `member` LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-07-24T00:02:38+08:00 ] 192.168.1.103 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005211s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000362s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076756s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004892s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006756s ]
+
+[ 2016-07-24T00:05:39+08:00 ] 192.168.1.103 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003501s ]
+NOTIC: [8] Undefined index: username /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 17 行.
+NOTIC: [8] Undefined index: password /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `member` LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2016-07-24T00:10:35+08:00 ] 192.168.1.103 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004251s ]
+NOTIC: [8] Undefined index: username /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 17 行.
+NOTIC: [8] Undefined index: password /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `member` LIMIT 1   [ RunTime:0.0019s ]
+
+[ 2016-07-24T00:26:09+08:00 ] 192.168.1.103 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003733s ]
+NOTIC: [8] Undefined index: username /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 17 行.
+NOTIC: [8] Undefined index: password /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `member` LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2016-07-24T00:31:33+08:00 ] 192.168.1.103 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004776s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002658s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002769s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003220s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003396s ]
+
+[ 2016-07-24T00:31:35+08:00 ] 192.168.1.103 /index.php/Home/Member/login?username=&password=&verify_code=&submit=%E7%99%BB%E9%99%86
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003325s ]
+NOTIC: [8] Undefined index: username /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 17 行.
+NOTIC: [8] Undefined index: password /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `member` LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-07-24T00:39:30+08:00 ] 192.168.1.103 /index.php/Home/Member/login?username=&password=&verify_code=&submit=%E7%99%BB%E9%99%86
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004337s ]
+NOTIC: [8] Undefined index: username /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 17 行.
+NOTIC: [8] Undefined index: password /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `member` LIMIT 1   [ RunTime:0.0016s ]
+
+[ 2016-07-24T00:39:32+08:00 ] 192.168.1.103 /index.php/Home/Member/login?username=&password=&verify_code=&submit=%E7%99%BB%E9%99%86
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003165s ]
+NOTIC: [8] Undefined index: username /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 17 行.
+NOTIC: [8] Undefined index: password /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `member` LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-07-24T00:42:52+08:00 ] 192.168.1.103 /index.php/Home/Member/login?username=&password=&verify_code=&submit=%E7%99%BB%E9%99%86
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003620s ]
+NOTIC: [8] Undefined index: username /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 17 行.
+NOTIC: [8] Undefined index: password /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: user_info /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: user_info /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 21 行.
+
+[ 2016-07-24T00:42:52+08:00 ] 192.168.1.103 /index.php/Home/Member/login?username=&password=&verify_code=&submit=%E7%99%BB%E9%99%86
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004845s ]
+NOTIC: [8] Undefined index: username /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 17 行.
+NOTIC: [8] Undefined index: password /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: user_info /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: user_info /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 21 行.
+
+[ 2016-07-24T00:42:52+08:00 ] 192.168.1.103 /index.php/Home/Member/:index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001916s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003210s ]
+ERR: 非法操作::index
+
+[ 2016-07-24T00:42:58+08:00 ] 192.168.1.103 /index.php/Home/Member/login?username=&password=&verify_code=&submit=%E7%99%BB%E9%99%86
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004156s ]
+NOTIC: [8] Undefined index: username /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 17 行.
+NOTIC: [8] Undefined index: password /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: user_info /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: user_info /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 21 行.
+
+[ 2016-07-24T00:42:58+08:00 ] 192.168.1.103 /index.php/Home/Member/login?username=&password=&verify_code=&submit=%E7%99%BB%E9%99%86
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002653s ]
+NOTIC: [8] Undefined index: username /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 17 行.
+NOTIC: [8] Undefined index: password /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: user_info /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: user_info /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 21 行.
+
+[ 2016-07-24T00:42:58+08:00 ] 192.168.1.103 /index.php/Home/Member/:index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002909s ]
+ERR: 非法操作::index
+
+[ 2016-07-24T00:43:05+08:00 ] 192.168.1.103 /index.php/Home/Member/:index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003985s ]
+ERR: 非法操作::index
+
+[ 2016-07-24T00:43:07+08:00 ] 192.168.1.103 /index.php/Home/Member/:index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004965s ]
+ERR: 非法操作::index
+
+[ 2016-07-24T00:43:07+08:00 ] 192.168.1.103 /index.php/Home/Member/:index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001648s ]
+ERR: 非法操作::index
+
+[ 2016-07-24T00:43:07+08:00 ] 192.168.1.103 /index.php/Home/Member/:index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001750s ]
+ERR: 非法操作::index
+
+[ 2016-07-24T00:43:07+08:00 ] 192.168.1.103 /index.php/Home/Member/:index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001684s ]
+ERR: 非法操作::index
+
+[ 2016-07-24T00:43:07+08:00 ] 192.168.1.103 /index.php/Home/Member/:index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002007s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002903s ]
+ERR: 非法操作::index
+
+[ 2016-07-24T00:43:26+08:00 ] 192.168.1.103 /index.php/Home/Member/:index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004527s ]
+ERR: 非法操作::index
+
+[ 2016-07-24T00:43:26+08:00 ] 192.168.1.103 /index.php/Home/Member/:index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004548s ]
+ERR: 非法操作::index
+
+[ 2016-07-24T00:43:27+08:00 ] 192.168.1.103 /index.php/Home/Member/:index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003300s ]
+ERR: 非法操作::index
+
+[ 2016-07-24T00:43:27+08:00 ] 192.168.1.103 /index.php/Home/Member/:index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003046s ]
+ERR: 非法操作::index
+
+[ 2016-07-24T00:43:27+08:00 ] 192.168.1.103 /index.php/Home/Member/:index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002497s ]
+ERR: 非法操作::index
+
+[ 2016-07-24T00:43:39+08:00 ] 192.168.1.103 /index.php/Home/Member/:index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003652s ]
+ERR: 非法操作::index
+
+[ 2016-07-24T00:43:39+08:00 ] 192.168.1.103 /index.php/Home/Member/:index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002569s ]
+ERR: 非法操作::index
+
+[ 2016-07-24T00:43:39+08:00 ] 192.168.1.103 /index.php/Home/Member/:index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002986s ]
+ERR: 非法操作::index
+
+[ 2016-07-24T00:43:40+08:00 ] 192.168.1.103 /index.php/Home/Member/:index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004252s ]
+ERR: 非法操作::index
+
+[ 2016-07-24T00:43:40+08:00 ] 192.168.1.103 /index.php/Home/Member/:index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002882s ]
+ERR: 非法操作::index
+
+[ 2016-07-24T00:43:40+08:00 ] 192.168.1.103 /index.php/Home/Member/:index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002982s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003294s ]
+ERR: 非法操作::index
+
+[ 2016-07-24T00:43:40+08:00 ] 192.168.1.103 /index.php/Home/Member/:index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002979s ]
+ERR: 非法操作::index
+
+[ 2016-07-24T00:43:40+08:00 ] 192.168.1.103 /index.php/Home/Member/:index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002692s ]
+ERR: 非法操作::index
+
+[ 2016-07-24T00:43:43+08:00 ] 192.168.1.103 /index.php/Home/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004561s ]
+ERR: 非法操作:index
+
+[ 2016-07-24T00:43:45+08:00 ] 192.168.1.103 /index.php/Home/Member/:index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004222s ]
+ERR: 非法操作::index
+
+[ 2016-07-24T00:43:48+08:00 ] 192.168.1.103 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003463s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039282s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002816s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002967s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004939s ]
+
+[ 2016-07-24T00:43:50+08:00 ] 192.168.1.103 /index.php/Home/Member/login?username=&password=&verify_code=&submit=%E7%99%BB%E9%99%86
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003610s ]
+NOTIC: [8] Undefined index: username /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 17 行.
+NOTIC: [8] Undefined index: password /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: user_info /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: user_info /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 21 行.
+
+[ 2016-07-24T00:43:50+08:00 ] 192.168.1.103 /index.php/Home/Member/login?username=&password=&verify_code=&submit=%E7%99%BB%E9%99%86
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010060s ]
+NOTIC: [8] Undefined index: username /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 17 行.
+NOTIC: [8] Undefined index: password /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: user_info /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: user_info /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 21 行.
+
+[ 2016-07-24T00:43:51+08:00 ] 192.168.1.103 /index.php/Home/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002971s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004680s ]
+ERR: 非法操作:index
+
+[ 2016-07-24T00:45:46+08:00 ] 192.168.1.103 /index.php/Home/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002752s ]
+ERR: 非法操作:index
+
+[ 2016-07-24T00:45:50+08:00 ] 192.168.1.103 /index.php/Home/Member/login?username=&password=&verify_code=&submit=%E7%99%BB%E9%99%86
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002974s ]
+NOTIC: [8] Undefined index: username /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 17 行.
+NOTIC: [8] Undefined index: password /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: user_info /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: user_info /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: user_info /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `member` LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-07-24T00:46:12+08:00 ] 192.168.1.103 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007670s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039899s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003125s ]
+
+[ 2016-07-24T00:46:21+08:00 ] 192.168.1.103 /index.php/Home/Member/login?username=huzikan&password=66274335&verify_code=&submit=%E7%99%BB%E9%99%86
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004712s ]
+NOTIC: [8] Undefined index: username /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 17 行.
+NOTIC: [8] Undefined index: password /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: user_info /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: user_info /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: user_info /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `member` LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-07-24T00:47:13+08:00 ] 192.168.1.103 /index.php/Home/Member/login?username=huzikan&password=66274335&verify_code=&submit=%E7%99%BB%E9%99%86
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000132s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003347s ]
+NOTIC: [8] Undefined index: username /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 17 行.
+NOTIC: [8] Undefined index: password /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: user_info /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: user_info /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: user_info /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 22 行.
+
+[ 2016-07-24T00:47:37+08:00 ] 192.168.1.103 /index.php/Home/Member/login?username=huzikan&password=66274335&verify_code=&submit=%E7%99%BB%E9%99%86
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002972s ]
+NOTIC: [8] Undefined index: username /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 17 行.
+NOTIC: [8] Undefined index: password /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `member` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-24T00:47:42+08:00 ] 192.168.1.103 /index.php/Home/Member/login?username=huzikan&password=66274335&verify_code=&submit=%E7%99%BB%E9%99%86
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003552s ]
+NOTIC: [8] Undefined index: username /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 17 行.
+NOTIC: [8] Undefined index: password /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `member` LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2016-07-24T00:47:42+08:00 ] 192.168.1.103 /index.php/Home/Member/login?username=huzikan&password=66274335&verify_code=&submit=%E7%99%BB%E9%99%86
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004580s ]
+NOTIC: [8] Undefined index: username /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 17 行.
+NOTIC: [8] Undefined index: password /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `member` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-24T00:47:42+08:00 ] 192.168.1.103 /index.php/Home/Member/login?username=huzikan&password=66274335&verify_code=&submit=%E7%99%BB%E9%99%86
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002315s ]
+NOTIC: [8] Undefined index: username /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 17 行.
+NOTIC: [8] Undefined index: password /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `member` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-24T00:47:42+08:00 ] 192.168.1.103 /index.php/Home/Member/login?username=huzikan&password=66274335&verify_code=&submit=%E7%99%BB%E9%99%86
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002546s ]
+NOTIC: [8] Undefined index: username /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 17 行.
+NOTIC: [8] Undefined index: password /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `member` LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-07-24T00:47:43+08:00 ] 192.168.1.103 /index.php/Home/Member/login?username=huzikan&password=66274335&verify_code=&submit=%E7%99%BB%E9%99%86
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003276s ]
+NOTIC: [8] Undefined index: username /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 17 行.
+NOTIC: [8] Undefined index: password /data/html/tp3.2/Application/Home/Controller/MemberController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0986s ]
+SQL: SELECT * FROM `member` LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-07-24T00:48:05+08:00 ] 192.168.1.103 /index.php/Home/Member/login?username=huzikan&password=66274335&verify_code=&submit=%E7%99%BB%E9%99%86
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005016s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `member` LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-07-24T00:49:28+08:00 ] 192.168.1.103 /index.php/Home/Member/login?username=huzikan&password=66274335&verify_code=&submit=%E7%99%BB%E9%99%86
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003870s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `member` LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-07-24T00:49:30+08:00 ] 192.168.1.103 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005748s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000287s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000438s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004325s ]
+
+[ 2016-07-24T00:51:46+08:00 ] 192.168.1.103 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004921s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003845s ]
+
+[ 2016-07-24T00:52:01+08:00 ] 192.168.1.103 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004086s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000312s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008484s ]
+
+[ 2016-07-24T00:53:01+08:00 ] 192.168.1.103 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003175s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000377s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004477s ]
+
+[ 2016-07-24T00:57:10+08:00 ] 192.168.1.103 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000441s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048708s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002987s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003872s ]
+
+[ 2016-07-24T01:09:05+08:00 ] 192.168.1.103 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003926s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `member` LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-07-24T01:09:15+08:00 ] 192.168.1.103 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004020s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `member` LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-07-24T01:09:25+08:00 ] 192.168.1.103 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013427s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `member` LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-07-24T01:10:09+08:00 ] 192.168.1.103 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005147s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000299s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046037s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005237s ]
+
+[ 2016-07-24T01:10:15+08:00 ] 192.168.1.103 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003483s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `member` LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2016-07-24T01:10:19+08:00 ] 192.168.1.103 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006073s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `member` LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2016-07-24T01:10:21+08:00 ] 192.168.1.103 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003847s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `member` LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-07-24T01:10:23+08:00 ] 192.168.1.103 /index.php/Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004465s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `member` LIMIT 1   [ RunTime:0.0052s ]
+
+[ 2016-07-24T01:11:11+08:00 ] 192.168.1.103 /index.php/home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003412s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002801s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005156s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005308s ]
+

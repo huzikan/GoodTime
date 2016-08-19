@@ -1,0 +1,4 @@
+#非静态资源访问时重定向
+if (!-e $request_filename) {
+	rewrite ^/(.*)$ /index.php/$1 last;
+}
