@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">=5.3.0",
-		"deepwhite/simple-excel": "dev-master"
+        "deepwhite/simple-excel": "dev-master"
     },
     "minimum-stability": "dev"
 }

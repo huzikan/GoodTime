@@ -585,3 +585,85 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010102s ]
 INFO: [ app_end ] --END-- [ RunTime:0.010248s ]
 
+[ 2016-08-21T22:07:34+08:00 ] 192.168.0.102 /Home/member/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004153s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044972s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002924s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003857s ]
+
+[ 2016-08-21T22:07:35+08:00 ] 192.168.0.102 /Home/member/getValidCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002833s ]
+NOTIC: [8] Undefined index: fontsize /data/html/goodTime/Application/Common/Util/ValidCode.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003126s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003425s ]
+
+[ 2016-08-21T22:07:37+08:00 ] 192.168.0.102 /home/member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003736s ]
+
+[ 2016-08-21T22:07:37+08:00 ] 192.168.0.102 /home/member/getValidCode?0.050495874136686325
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003587s ]
+NOTIC: [8] Undefined index: fontsize /data/html/goodTime/Application/Common/Util/ValidCode.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003882s ]
+
+[ 2016-08-21T22:07:42+08:00 ] 192.168.0.102 /home/member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003674s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `member` LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2016-08-21T22:07:43+08:00 ] 192.168.0.102 /home/Index/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002522s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000360s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002714s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002835s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004165s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004301s ]
+
