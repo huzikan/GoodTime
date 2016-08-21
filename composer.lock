@@ -1,0 +1,67 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "0e60d07342e21cec020546e986649339",
+    "content-hash": "5f56883bc04f7d7debc88818d723bbf1",
+    "packages": [
+        {
+            "name": "deepwhite/simple-excel",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/huzikan/simpleExcel.git",
+                "reference": "2dfe4de0b3f66b3d8ebf9d4ac0591fc615dc4bf0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/huzikan/simpleExcel/zipball/2dfe4de0b3f66b3d8ebf9d4ac0591fc615dc4bf0",
+                "reference": "2dfe4de0b3f66b3d8ebf9d4ac0591fc615dc4bf0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "mit",
+            "autoload": {
+                "psr-4": {
+                    "util\\": "./"
+                },
+                "classmap": [
+                    "./"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "apache2"
+            ],
+            "authors": [
+                {
+                    "name": "huzikan",
+                    "email": "huzikan@zbj.com"
+                }
+            ],
+            "description": "excel大数据表导出",
+            "keywords": [
+                "Simple",
+                "excel",
+                "php"
+            ],
+            "time": "2016-08-20 17:44:21"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "deepwhite/simple-excel": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3.0"
+    },
+    "platform-dev": []
+}
