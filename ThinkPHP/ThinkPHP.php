@@ -94,5 +94,5 @@ if(!IS_CLI) {
 // 加载核心Think类
 require CORE_PATH.'Think'.EXT;
 
-// 应用初始化 
+// 应用初始化
 Think\Think::start();

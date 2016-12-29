@@ -1,17 +1,22 @@
 <?php
+
 namespace Home\Controller;
+
 use Think\Controller;
 use Common\Util\ValidCode;
 
-class MemberController extends Controller {
+class MemberController extends Controller
+{
     /**
      * 登陆视图页
      */
-    public function loginView() {
+    public function loginView()
+    {
         $this->display('login');
     }
 
-    public function getValidCode() {
+    public function getValidCode()
+    {
         $option = array(
             'width'  => 107,
             'height' => 40
@@ -24,7 +29,8 @@ class MemberController extends Controller {
     /**
      * 登陆提交
      */
-    public function login() {
+    public function login()
+    {
         $userName = I('post.username');
         $password = I('post.password');
         $verify_code = I('post.verify_code');
@@ -56,12 +62,14 @@ class MemberController extends Controller {
     /**
      * 退出
      */
-    public function loginOut() {
+    public function loginOut()
+    {
         cookie('userunique', null);
         $this->redirect('loginView');
     }
 
-    private function writeCookie($userData) {
+    private function writeCookie($userData)
+    {
         $userUnique = array(
             'uid' => $userData['uid'],
             'username' => $userData['username'],
@@ -77,8 +85,12 @@ class MemberController extends Controller {
 
     /**
      * 获取转译密码
+     *
+     * @param  string $password 原始密码串
+     * @return string 加密密码串
      */
-    private function getPwd($password) {
+    private function getPwd($password)
+    {
         $plen = strlen($password);
         //获取验证秘钥顺序
         if ($plen % 2 > 0) {

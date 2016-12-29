@@ -8,7 +8,7 @@
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="/public/bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="/public/css/home/common/header.css">
-		<title>登陆测试</title>
+		<title>深白的个人博客</title>
 	</head>
 	<body>
     <style>
@@ -332,46 +332,7 @@
 			background-color:rgba(228,71,21,0.9); 
 		}
     </style>
-<link rel="stylesheet" type="text/css" href="/public/css/home/common/header_nav.css">
-<div class="top-wrap">
-    <div class="site-top">
-        <div class="logo-container">
-            <a class="site-link" href='http://www.zbj.com'>
-                <img src="/public/images/goodtime_logo.png">
-            </a>
-            <span class="site-desc">带给您不一样的美好生活</span>
-        </div>
-        <div class="sitemap-container">
-            <?php if(($_user['uid']) > "0"): ?><span class="left-float">欢迎您，<?php echo ($_user['username']); ?></span><?php endif; ?>
-            <ul>
-                <?php if(($_user['uid']) > "0"): ?><li><a class="split" href="<?php echo U('member/loginOut');?>">退出</a></li>
-                    <li><a class="split" href="">个人中心</a></li>
-                <?php else: ?>
-                	<li><a class="split" href="<?php echo U('member/loginView');?>">登陆</a></li>
-                	<li><a class="split" href="">注册</a></li><?php endif; ?>
-                <li><a href="">帮助中心</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
-<div class="header-nav-wrap">
-    <div class="nav-container">
-        <div class="nav-logo">
-            <a class="nav-link" href="http://www.zbj.com">
-                <img src="/public/images/nav_logo.png">
-            </a>
-        </div>
-        <div class="header-nav">
-            <ul>
-                <li><a class="header-nav-cur" href="">首页</a></li>
-                <li><a href="">绿色花园</a></li>
-                <li><a href="">蓝色海洋</a></li>
-                <li><a href="">我的账户</a></li>
-                <li><a href="">帮助中心</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
+
 <div class = "content-wrap">
 	<div class = "left-ad-wrap">
 		<div class="hot-laber">
@@ -589,76 +550,29 @@
 <link rel="stylesheet" type="text/css" href="/public/css/home/common/footer.css">
 <div class = "footer-wrap">
 	<div class="footer-container">
-		<ul>
-			<li>
+		<div class="footer-info left-float">
+			<div class="footer-logo">
 				<a href="">
-					<p class="footer-link footer-icon1"></p>
+					<img src="/public/images/ft-logo.jpg" alt="">
 				</a>
-				<p>中国领先</p>
-				<p>私人定制商城</p>
-			</li>
-			<li>
-				<a href="">
-					<p class="footer-link footer-icon2"></p>
-				</a>
-				<p>100%专属定制</p>
-				<p>独一无二为您定制</p>
-			</li>
-			<li>
-				<a href="">
-					<p class="footer-link footer-icon3"></p>
-				</a>
-				<p>100%</p>
-				<p>正品保证</p>
-			</li>
-			<li>
-				<a href="">
-					<p class="footer-link footer-icon4"></p>
-				</a>
-				<p>30天</p>
-				<p>退货保障</p>
-			</li>
-			<li>
-				<a href="">
-					<p class="footer-link footer-icon5"></p>
-				</a>
-				<p>24小时</p>
-				<p>闪电发货</p>
-			</li>
-			<li>
-				<a href="">
-					<p class="footer-link footer-icon6"></p>
-				</a>
-				<p>精美保证</p>
-				<p>让您眼前一亮</p>
-			</li>
-			<li>
-				<a href="">
-					<p class="footer-link footer-icon7"></p>
-				</a>
-				<p>200万用户</p>
-				<p>口碑信赖</p>
-			</li>					
-			<li>
-				<a href="">
-					<p class="footer-link footer-icon8"></p>
-				</a>
-				<p>1250城市</p>
-				<p>货到付款</p>
-			</li>
-		</ul>
-		<div class="footer-content">
-			<dd>
-				<dt><a href="">商品分类</a></dt>
-				<dt><a href="">移动站点</a></dt>
-				<dt><a href="">商家登陆</a></dt>
-				<dt><a href="">招聘英才</a></dt>
-				<dt><a href="">联系我们</a></dt>
-				<dt><a href="">关于我们</a></dt>
-				<dt><a href="">帮助中心</a></dt>
-				<dt><a href="">站点导航</a></dt>
-			</dd>
-			<p>Copyright © 2006-2016 goodtime.com 网上经营许可证号：渝B2-20140235</p>
+			</div>
+			<p>让你的身体和心灵都来一次彻底的旅行吧！</p>
+		</div>
+		<div class="footer-nav right-float">
+			<div class="footer-share">
+				<ul>
+					<li class="share-sina"><a href=""></a></li>
+					<li class="share-weixin"><a href=""></a></li>
+					<li class="share-eamil"><a href=""></a></li>
+				</ul>
+			</div>
+			<div class="footer-link">
+				<a href="">我的微博</a>
+				<a href="">站长统计</a>
+				<a href="">广告合作</a>
+				<a href="">给我留言</a>
+			</div>
+			<p>Copyright 2016 conact me:huzikan@163.com</p>
 		</div>
 	</div>
 </div>
@@ -763,5 +677,29 @@ $(function(){
     }).mouseleave(function(e) {
  		$(this).css({"opacity":"0.5"});
     });
+
+	function getLastDay(date) {
+		var finalMonth = date.substr(4, 6);
+		date = date.substr(0, 4) + '-' + date.substr(4, 6) + "-01";
+		var nowDate = new Date(date);
+		var nowYear = nowDate.getFullYear(),
+			nowMonth = nowDate.getMonth() + 1;
+		if (nowMonth == 12) {
+			newYear = parseInt(nowYear) + 1;
+			newMonth = "01";
+			newDay = "01";
+		} else {
+			newYear = nowYear;
+			newMonth = parseInt(nowMonth) + 1;
+			newDay = "01";
+		}
+		var newDate = newYear + '-' + newMonth + '-' + newDay;
+		var time = Date.parse(new Date(newDate)) - Date.parse(nowDate) - 86400 * 1000;
+		var finalDate = new Date();
+		finalDate.setTime(Date.parse(nowDate) + parseInt(time));
+		return finalDate.getFullYear() +  '' + finalMonth  + finalDate.getDate();
+	}
+//	console.log(getLastDay('201612'));
+//	console.log(getLastDay('201702'));
 });
 </script>

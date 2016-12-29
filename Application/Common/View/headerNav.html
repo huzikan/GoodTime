@@ -1,0 +1,47 @@
+<link rel="stylesheet" type="text/css" href="/public/css/home/common/headerNav.css">
+<div class="top-wrap">
+    <div class="site-top">
+        <div class="logo-container">
+            <a class="site-link" href='http://www.zbj.com'>
+                <img src="/public/images/goodtime_logo.png">
+            </a>
+            <span class="site-desc">身体和心灵总有一个要在路上</span>
+        </div>
+        <div class="sitemap-container">
+            <gt name="_user['uid']" value="0">
+            	<span class="left-float">欢迎您，{$_user['username']}</span>
+            </gt>
+            <ul>
+                <gt name="_user['uid']" value="0">
+                    <li><a class="split" href="{:U('member/loginOut')}">退出</a></li>
+                    <li><a class="split" href="">个人中心</a></li>
+                <else/>
+                	<li><a class="split" href="{:U('member/loginView')}">登陆</a></li>
+                	<li><a class="split" href="">注册</a></li>
+                </gt>
+                <li><a href="/home/message/messageHome">给我留言</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="header-banner"></div>
+<div class="header-nav-wrap">
+    <div class="header-nav">
+        <ul>
+            <li><a <if condition="$_tplParam['nav']['index'] eq 1 ">class="header-nav-cur"</if>
+                href="/home/index/myhome">首页</a></li><!-- 
+         --><li><a <if condition="$_tplParam['nav']['index'] eq 2 ">class="header-nav-cur"</if>
+                href="/home/skill/skilllist">技术积累</a></li><!--
+         --><li><a <if condition="$_tplParam['nav']['index'] eq 3 ">class="header-nav-cur"</if>
+                href="/home/work/worklist">工作感悟</a></li><!--
+         --><li><a <if condition="$_tplParam['nav']['index'] eq 4 ">class="header-nav-cur"</if>
+                href="/home/life/lifelist">生活琐碎</a></li><!--
+         --><li><a <if condition="$_tplParam['nav']['index'] eq 5 ">class="header-nav-cur"</if>
+                href="/home/travel/index">旅行趣事</a></li><!-- 
+         --><li><a <if condition="$_tplParam['nav']['index'] eq 6 ">class="header-nav-cur"</if>
+                href="/home/aboutme/index">关于我</a></li><!-- 
+         --><li><a <if condition="$_tplParam['nav']['index'] eq 7 ">class="header-nav-cur"</if>
+                href="/home/message/messageHome">给我留言</a></li>
+        </ul>
+    </div>
+</div>

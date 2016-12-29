@@ -1,0 +1,707 @@
+<include file="./Application/Common/View/header.html" />
+<include file="./Application/Common/View/headerNav.html" />
+
+<style>
+    .main-wrap{
+        width: 1000px;
+        margin: 20px auto 0 auto;
+        background-color: #fff;
+        overflow: hidden;
+    }
+
+    .new-container {
+        width: 670px;
+        float: left;
+        overflow: hidden;
+        padding: 10px 0 10px 10px;
+    }
+
+    .sitenav-container em {
+        display: block;
+        float: left;
+        width: 18px;
+        height: 18px;
+        background: url('/public/images/sitemap-icon.png');
+    }
+    
+    .sitenav-container p span {
+        margin-left: 5px;
+        color: rgb(27, 163, 153);
+    }
+
+    .new-title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .new-key {
+        margin-top:20px;
+        margin-bottom: 10px;
+    }
+
+    .new-key span {
+        margin-right: 20px;
+        padding-left: 20px;
+    }
+
+    .new-key .key01 {
+        background: url('/public/images/date.png') no-repeat left center;
+    }
+
+    .new-tag span {
+        display: inline-block;
+        height: 24px;
+        line-height: 24px;
+        background-color: #F4650E; 
+        color:#fff;
+        padding: 0 8px;
+        margin-right: 10px;
+    }
+
+    .new-desc {
+        line-height: 24px;
+        margin: 20px 0;
+        padding: 10px;
+        color: #888888;
+        background-color: #F6F6F6;
+    }
+
+    .new-content {
+        line-height: 24px;
+        font-size: 14px;
+        color: #666666;
+    }
+
+    .new-content .footend {
+        margin-top: 20px;
+        padding: 15px 15px 15px 115px;
+        background: url('/public/images/ftend.png') no-repeat 15px center #f6f5f2;
+        line-height: 20px;
+        word-break: break-all;
+    }
+
+    .new-share {
+        margin:20px 0;
+        overflow: hidden;
+    }
+    
+    .new-share a {
+        float: left;
+        font-size: 18px;
+        padding-left: 25px;
+        line-height: 24px;
+        height: 24px;
+        background-image: url('/public/images/share-icon.png');
+        background-repeat: no-repeat;
+        cursor: pointer;
+        margin: 6px 6px 6px 0;
+    }
+
+    .new-share .bds_tsina {
+        background-position: 0 -104px;
+    }
+
+    .new-share .bds_weixin {
+        background-position: 0 -1612px;
+    }
+
+    .new-share .bds_qzone {
+        background-position: 0 -52px;
+    }
+
+    .new-share .bds_tqq {
+        background-position: 0 -260px;
+    }
+
+    .new-comment h2 {
+        background: url('/public/images/comment-icon.png') no-repeat left center;
+        border-bottom: 2px solid #099;
+        line-height: 40px;
+        font-size: 14px;
+        padding-left: 20px;
+        color: #000;
+    }
+
+    .comment-tab {
+        overflow: hidden;
+        margin: 20px 0;
+        border-bottom: 1px solid #e3e0e0;
+    }
+
+    .comment-tab .comment-sort {
+    }
+
+    .comment-tab .comment-sort span {
+        display: inline-block;
+        width: 50px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .comment-sort span.sort-cur {
+        background-color: #f77825;
+        color: #fff;
+    }
+    
+    .comment-tab .comment-count {
+        padding: 5px 10px 5px 0; 
+    }
+
+    .comment-tab .comment-count b {
+        color: #E01818;
+        padding: 5px;
+    }
+
+    .message-container {
+        overflow: hidden;
+    }
+
+    .message-container ul li {
+        display: block;
+        clear: both;
+        overflow: hidden;
+        padding: 20px;
+        border-bottom: 1px solid #e3e0e0;
+    }
+
+    .message-container ul li:hover {
+        background-color: #f4f3f3;
+    }
+
+    .head-img-container {
+        width: 100px;
+        float: left;
+        overflow: hidden;
+    }
+
+    .head-img-container img {
+        width: 88px;
+        border-radius: 50%;
+    }
+
+    .content-container {
+        width: 500px;
+        float: right;
+        overflow: hidden;
+    }
+
+    .content-container h5 {
+        color: #59bcfe;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .content-container p {
+        line-height: 20px;
+    }
+
+    .message-tag {
+        margin: 20px 0;
+    }
+
+    .message-tag span {
+        margin-right: 10px;
+        color: #999;
+    }
+
+    .message-tag span a{
+        text-decoration: none;
+        color: #999;
+    }
+
+    .message-tag span a:hover {
+        color: #000;
+    }
+
+    .message-box {
+        padding: 80px 20px 20px 20px;
+        overflow: hidden;
+        border-right: 20px solid #f7f7f7;
+        border-top: 20px solid #f7f7f7;
+    }
+
+    .message-box .box-content {
+        float: right;
+    }
+
+    .message-box textarea {
+        width: 500px;
+        height: 150px;
+        padding: 10px;
+        display: block;
+    }
+
+    .ds-post-cpntainer {
+        margin-top: 10px;
+    }
+
+    .ds-post-cpntainer span {
+        float: left;
+        line-height: 30px;
+        color: #999;
+    }
+
+    .ds-post-button {
+        width: 100px;
+        height: 30px;
+        background-color: rgb(63, 184, 175);
+        color: #fff;
+        float: right;
+        border: 1px solid #fff;
+        border-radius: 5px;
+    }
+
+    .message-box textarea {
+        width: 500px;
+        height: 150px;
+        padding: 10px;
+        display: block;
+    }
+
+    .message-page {
+        margin:20px 0;
+        text-align: right;
+    }
+
+    .message-page a {
+        display: inline-block;
+        position: relative;
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        background-color: #f3f3f3;
+        margin-left: 4px;
+        text-align: center;
+        line-height: 30px;
+        color: #333;
+        font-size: 12px;
+    }
+
+    .message-page a:hover {
+        color: #fff;
+        background-color: #59bcfe;
+    }
+
+    .message-page a:link {
+        text-decoration: none;
+    }
+    
+    .message-page a.cur-page {
+        color: #fff;
+        background-color: #59bcfe;
+    }
+
+    .fast-operate a {
+        color: #fff;
+        display: block;
+        width: 92px;
+        height: 30px;
+        line-height: 30px;
+        position: fixed;
+        right: 3%;
+    }
+    .return-top {
+        background: url("/public/images/fast.png") no-repeat scroll 0px -165px;
+    }
+
+    .return-top:hover {
+        background: url("/public/images/fast.png") no-repeat scroll -100px -165px;
+    }
+</style>
+<div> 
+    <div class="fast-operate">
+        <a class="return-top"  href="javascript:;" title="返回顶部"></a>
+    </div>
+    <div class="main-wrap">
+        <div class="new-container">
+            <div class="sitenav-container">
+                <p>
+                    <em></em>
+                    <span>您现在的位置是：</span>
+                    <a href="">首页</a>
+                    &nbsp;&gt;&nbsp;
+                    <a href="">技术积累</a>
+                    &nbsp;&gt;&nbsp;
+                    <a href="">Linux杂谈</a>
+                </p>
+            </div>
+            <h2 class="new-title">{$article.title}</h2>
+            <div class="new-key">
+                <span class="key01">{$article.create_date}</span>
+                <span>共<b>{$article.visited_count}</b>人围观</span>
+                <span class="right-float"><b>{$article.comment_count}</b>条评论</span>
+            </div>
+            <div class="new-tag">
+                <span>php</span>
+                <span>mysql</span>
+                <span>linux</span>
+                <span>nginx</span>
+            </div>
+            <div class="new-desc">
+                <strong>简介：</strong>
+                {$article.desc}
+            </div>
+            <div class="new-content">
+                {$article.content}
+                <div class="footend">
+                    第一时间获取智能手机行业新鲜资讯和商业动态，可以访问小编的微博
+                    <a href="http://weibo.com/jiyouh/" target="_blank">http://weibo.com/jiyouh</a>,如果需要小编陪聊也可以在微信里添加好友,搜索「<span>jiyouhcom</span>」，还可以通过手机扫描左方二维码，关注机友汇微信公众号,即可获得机友汇精华内容推送，并参与相关活动。
+                </div>
+            </div>
+            <div class="new-share">
+                <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+                <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+                <a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
+            </div>
+            <div calss="new-next">
+                <p>
+                    上一篇：
+                    <a href="">雷军持自拍杆卖萌 这是小米发布新玩具"小蚁自拍杆"的前奏吗?</a>
+                </p>
+                <p>
+                    下一篇：
+                    <a href="">手机上3D萌熊出没效果的制作过程</a>
+                </p>
+            </div>
+            <!-- 评论 -->
+            <div class="new-comment">
+                <h2>文章评论</h2>
+                <div class="comment-tab" id="comment-tab">
+                    <div class="comment-sort left-float">
+                        <span class="sort-cur">最新</span><span>最早</span><span>最热</span>
+                    </div>
+                    <div class="comment-count right-float">
+                        <span>共<b>5</b>条评论</span>
+                    </div>
+                </div>
+                <div class="message-container">
+                    <ul>
+                        <li>
+                            <div class="head-img-container">
+                                <a href="">
+                                    <img src="/public/images/message/head-default.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="content-container">
+                                <h5>孤独的星辰</h5>
+                                <p>让我能自信的去追寻自己的梦。</p>
+                                <div class="message-tag">
+                                    <span>
+                                        2016-09-17 11:12:26
+                                    </span>
+                                    <span class="right-float">
+                                        <em class="icon-4"></em>
+                                        <a href="">回复（2）</a>
+                                    </span>
+                                    <span class="right-float">
+                                        <em class="icon-3"></em>
+                                        <a href="">赞（30）</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="head-img-container">
+                                <a href="">
+                                    <img src="/public/images/message/head-default.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="content-container">
+                                <h5>孤独的星辰</h5>
+                                <p>时间是一个月的时间，我几乎是天天泡在图书馆，晚上11点宿舍断电，我就抱着电脑去旁边的咖啡厅通宵。</p>
+                                <div class="message-tag">
+                                    <span>
+                                        2016-09-17 11:12:26
+                                    </span>
+                                    <span class="right-float">
+                                        <em class="icon-4"></em>
+                                        <a href="">回复（2）</a>
+                                    </span>
+                                    <span class="right-float">
+                                        <em class="icon-3"></em>
+                                        <a href="">赞（30）</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="head-img-container">
+                                <a href="">
+                                    <img src="/public/images/message/head-default.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="content-container">
+                                <h5>孤独的星辰</h5>
+                                <p>看了很多博主的帖子，我深受鼓舞。</p>
+                                <div class="message-tag">
+                                    <span>
+                                        2016-09-17 11:12:26
+                                    </span>
+                                    <span class="right-float">
+                                        <em class="icon-4"></em>
+                                        <a href="">回复（2）</a>
+                                    </span>
+                                    <span class="right-float">
+                                        <em class="icon-3"></em>
+                                        <a href="">赞（30）</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="head-img-container">
+                                <a href="">
+                                    <img src="/public/images/message/head-default.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="content-container">
+                                <h5>孤独的星辰</h5>
+                                <p>一辈子也就是几十年的时间吧，如果不能把自己无限的精力投入到有限的青春中，追寻自己的梦，那么活着和喘气又有什么区别呢？所以特别感谢博主，能在我人生最迷茫的时期，看到博主那些让我备受鼓舞和启发的文章。让我能自信的去追寻自己的梦。</p>
+                                <div class="message-tag">
+                                    <span>
+                                        2016-09-17 11:12:26
+                                    </span>
+                                    <span class="right-float">
+                                        <em class="icon-4"></em>
+                                        <a href="">回复（2）</a>
+                                    </span>
+                                    <span class="right-float">
+                                        <em class="icon-3"></em>
+                                        <a href="">赞（30）</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="head-img-container">
+                                <a href="">
+                                    <img src="/public/images/message/head-default.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="content-container">
+                                <h5>孤独的星辰</h5>
+                                <p>几次拿起早就尘封了多年的网站设计类书本，但是迫于生活无奈又放下。多少次纠结。</p>
+                                <div class="message-tag">
+                                    <span>
+                                        2016-09-17 11:12:26
+                                    </span>
+                                    <span class="right-float">
+                                        <em class="icon-4"></em>
+                                        <a href="">回复（2）</a>
+                                    </span>
+                                    <span class="right-float">
+                                        <em class="icon-3"></em>
+                                        <a href="">赞（30）</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="message-page" pageSize='5' totalSize="55">
+                    </div>
+                </div>
+                <div class="message-box">
+                    <div class="head-img-container">
+                        <a href="">
+                            <img src="/public/images/message/head-default.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="box-content">
+                        <form action="">
+                            <div class="ds-post-toolbar">
+                                <div class="ds-post-options ds-gradient-bg">
+                                    <span class="ds-sync"></span>
+                                </div>
+                                <div class="ds-toolbar-buttons">
+                                    <a class="ds-toolbar-button ds-add-emote" title="插入表情"></a>
+                                </div>
+                            </div>
+                            <textarea name="" id="" placeholder="说点什么吧..."></textarea>
+                            <div class="ds-post-cpntainer">
+                                <span>Ctrl+Enter</span>
+                                <button class="ds-post-button" type="submit">评论</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <include file="./Application/Home/View/Common/rightSide.html" />
+    </div>
+</div>
+<include file="./Application/Common/View/footer.html" />
+<script>
+$(function(){
+    // $("html,body").on(function(){
+        
+    // });
+    //返回顶部
+    $(".return-top").bind("click", function(e) {
+        $('body,html').animate({scrollTop:0}, 1000);
+    });
+
+    $(window).scroll(function() {
+        if ($(window).scrollTop() > 200){
+            $(".return-top").fadeIn(1000);
+        } else {
+            $(".return-top").fadeOut(1000);
+        }
+    });
+
+    function pageBar(page) {
+        this._handle = page;
+        this.pageSize = page.attr('pageSize');
+        this.totalSize = page.attr('totalSize');
+        this._init();
+    }
+
+    //原型方法定义
+    pageBar.prototype = {
+        //初始化分页样式
+        '_init': function() {
+            this.pageIndex = this.pageIndex ?  parseInt(this.pageIndex) : 1; 
+            if (this.totalSize <= 0) {
+                return null;
+            }
+            var barhtml = '<a href="javascript:;" class="prev">&lt;</a>';
+            var totalPage = Math.ceil(this.totalSize / this.pageSize);
+            //隐藏模式
+            if (totalPage >= 9) {
+                var barArr = this._createBar(totalPage);
+                for (var i = 0; i < barArr.length; i++) {
+                    if (barArr[i] == this.pageIndex) {
+                        barhtml += '<a href="javascript:;" class="cur-page">' + barArr[i] + '</a>';
+                    } else {
+                        barhtml += '<a href="javascript:;">' + barArr[i] + '</a>';
+                    }
+                };
+            } else {
+                for (var i = 1; i <= totalPage; i++) {
+                    if (i == this.pageIndex) {
+                        barhtml += '<a href="javascript:;" class="cur-page">' + i + '</a>';
+                    } else {
+                        barhtml += '<a href="javascript:;">' + i + '</a>';
+                    }
+                }
+            }
+            barhtml += '<a href="javascript:;" class="next">&gt;</a>';
+            this._handle.html(barhtml);
+        },
+        '_createBar': function(totalPage) {
+            //隐藏策略
+            var leftBarArr = [],
+                rightBarArr = [];
+            if (this.pageIndex > 1) {
+                //前置省略
+                if (this.pageIndex >= 5) {
+                    leftBarArr = [1, 2, '...', this.pageIndex - 1];
+                    if (this.pageIndex == totalPage) {
+                        leftBarArr  =  [1, 2, '...', this.pageIndex - 2, this.pageIndex - 1];
+                    }
+                } else {
+                    for (var x = 1; x < this.pageIndex; x++) {
+                        leftBarArr.push(x);
+                    };
+                }
+            }
+            //后置省略
+            if (this.pageIndex < totalPage) {
+                if (totalPage - this.pageIndex > 3) {
+                    rightBarArr = [this.pageIndex + 1, '...', totalPage - 1, totalPage];
+                    if (this.pageIndex == 1) {
+                        rightBarArr  = [this.pageIndex + 1, this.pageIndex + 2 , '...', totalPage - 1, totalPage];
+                    }
+                } else {
+                    for (var x = this.pageIndex + 1; x <= totalPage; x++) {
+                        rightBarArr.push(x);
+                    };
+                }
+            }
+            //生成样式
+            leftBarArr.push(this.pageIndex);
+
+            return leftBarArr.concat(rightBarArr);
+        },
+        //响应单击事件
+        'pageClick': function(obj, url, callBack) {
+            this._handle.on('click', 'a', function() {
+                var cusorContent = $(this).html();
+                var pageIndex;
+                //特殊标识处理
+                if (cusorContent == '...') {
+                    return true;
+                } else if (cusorContent == '&lt;') {
+                    if (obj.pageIndex <= 1) {
+                       return true; 
+                    }
+                    pageIndex = obj.pageIndex - 1;
+                } else if (cusorContent == '&gt;') {
+                    if (obj.pageIndex >= Math.ceil(obj.totalSize / obj.pageSize)) {
+                       return true;
+                    }
+                    pageIndex = obj.pageIndex + 1;
+                } else {
+                    pageIndex = cusorContent;
+                }
+
+                //获取加载数据
+                $.ajax({
+                    url: url + '?pageIndex=' + pageIndex,
+                    type: 'GET',
+                    dataType: 'json',
+                }).success(function(data) {
+                    if (data.success) {
+                        callBack(data.data);
+                    } else {
+                        alert(data.data);
+                    }
+                });
+                obj.pageIndex = pageIndex;
+                obj._init();
+            });
+        }
+    };
+
+    var pageBar = new pageBar($('.message-page'));
+    pageBar.pageClick(pageBar, '/Home/Message/getmessagelist', function(list){pageDataSwitch(list)});
+    function pageDataSwitch(list) {
+        var listItem = '',
+            listHtml = '';
+        for (var i = 0; i < list.length; i++) {
+            console.log(list[i]);
+            listItem = 
+            '<li>\
+                <div class="head-img-container">\
+                    <a href="">\
+                        <img src="' + list[i].headImg + '" alt="">\
+                    </a>\
+                </div>\
+                <div class="content-container">\
+                    <h5>' + list[i].userName + '</h5>\
+                    <p>' + list[i].content +'</p>\
+                    <div class="message-tag">\
+                        <span>\
+                            ' + list[i].time + '\
+                        </span>\
+                        <span class="right-float">\
+                            <em class="icon-4"></em>\
+                            <a href="">回复（' + list[i].agreeCount + '）</a>\
+                        </span>\
+                        <span class="right-float">\
+                            <em class="icon-3"></em>\
+                            <a href="">赞（' + list[i].replyCount + '）</a>\
+                        </span>\
+                    </div>\
+                </div>\
+            </li>';
+            listHtml += listItem;
+        };
+        $(".message-container>ul").html(listHtml);
+        //回到顶部
+        $('html,body').animate({scrollTop: $("#comment-tab").offset().top}, 500);
+    }
+});
+</script>

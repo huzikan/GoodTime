@@ -1,0 +1,120 @@
+<include file="./Application/Admin/View/Common/header.html" />
+<include file="./Application/Admin/View/Common/leftSide.html" />
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper" style="min-height: 298px;background-color: #fff;overflow: hidden;">
+    <!-- Content Header (Page header) -->
+    <section class="content-header" style="max-width:1200px;overflow:hidden;">
+      <span>站点导航：<a href="">内容管理 </a>&gt;<a href=""> 文章管理</a></span>
+      <span class="right-float"><a href="articleView" class="btn btn-info">添加文章</a></span>
+    </section>
+    <!-- Main content -->
+    <section class="content content-container">
+      <div class="row m-bootom-10">
+        <form class="form-inline" role="form" action="">
+          <div class="form-group m-left-10">
+            <label class="control-label" for="article_id">文章ID：</label>
+            <input type="text" class="form-control" name="article_id" id="article_id" value="{$article_id}" placeholder="文章ID">
+          </div>
+          <div class="form-group m-left-10">
+            <label class="control-label" for="article_type">文章类型：</label>
+            <select name="article_type" id="article_type" class="form-control">
+              <option value="">全部</option>
+                <foreach name="articleTypeMap" item="type" key="key">
+                  <option value="{$key}" <if condition="$article_type eq $key">selected="selected"</if>>{$type}</option>
+                </foreach>
+              </select>
+          </div>
+          <div class="form-group m-left-10">
+            <label class="control-label" id="create_time">创建时间：</label>
+            <input class="form-control datetime" name="ctime_begin" value="{$ctime_begin}"> -
+            <input class="form-control datetime" name="ctime_end" value="{$ctime_end}">
+          </div>
+          <div class="form-group m-left-10">
+            <button type="submit" class="btn btn-primary">查询</button>
+            <button type="submit" class="btn btn-success">导出</button>
+          </div>
+        </form>
+      </div>
+      <div class="row">
+        <table class="table table-bordered article-table">
+          <thead>
+            <tr>
+              <td>文章ID</td>
+              <td>文章标题</td>
+              <td>文章类型</td>
+              <td>发文章类型表人ID</td>
+              <td>发表人昵称</td>
+              <td>发布时间</td>
+              <td>操作</td>
+            </tr>
+          </thead>
+          <tbody>
+            <volist name="articleList" id="article">
+              <tr>
+                <td>{$article.id}</td>
+                <td class="col-md-4"><a href="/home/skill/skilldetail/id/{$article['id']}" target="_blank">{$article['title']}</a></td>
+                <td>{$articleTypeMap[$article['type']]}</td>
+                <td>{$article['publish_userid']}</td>
+                <td>{$article['publish_username']}</td>
+                <td>{$article['create_time']|date='Y-m-d H:i:s',###}</td>
+                <td>
+                  <a href="articleView?id={$article.id}" class="btn btn-xs btn-primary edit">编辑</a>
+                  <a href="javascript:;" class="btn btn-xs btn-danger delete">删除</a>
+                </td>
+              </tr>
+            </volist>
+          </tbody>
+        </table>
+      </div>
+      <div class="row">
+<!--         <div class="dataTables_paginate paging_simple_numbers pull-right" id="example1_paginate">
+          <ul class="pagination">
+            <li class="paginate_button previous disabled" id="example1_previous">
+              <a href="#" aria-controls="example1" data-dt-idx="0" tabindex="0">&lt;</a>
+            </li>
+            <li class="paginate_button active">
+              <a href="#" aria-controls="example1" data-dt-idx="1" tabindex="0">1</a>
+            </li>
+            <li class="paginate_button ">
+              <a href="#" aria-controls="example1" data-dt-idx="2" tabindex="0">2</a>
+            </li>
+            <li class="paginate_button ">
+              <a href="#" aria-controls="example1" data-dt-idx="3" tabindex="0">3</a>
+            </li><li class="paginate_button ">
+              <a href="#" aria-controls="example1" data-dt-idx="4" tabindex="0">4</a>
+            </li>
+            <li class="paginate_button ">
+              <a href="#" aria-controls="example1" data-dt-idx="5" tabindex="0">5</a>
+            </li>
+            <li class="paginate_button ">
+              <a href="#" aria-controls="example1" data-dt-idx="6" tabindex="0">6</a>
+            </li><li class="paginate_button next" id="example1_next">
+              <a href="#" aria-controls="example1" data-dt-idx="7" tabindex="0">&gt;</a>
+            </li>
+          </ul>
+        </div> -->
+        {$pageBar}
+      </div>
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+<script>
+$(function(){
+  $('.datetime').datetimepicker({
+    //初始化为星期几
+    weekStart: 1,
+    //显示当前日期btn
+    todayBtn: true,
+    //选择日期后，不会再跳转去选择时分秒 
+    minView: "month",
+    //选择日期后，文本框显示的日期格式 
+    format: "yyyy-mm-dd",
+    //汉化 
+    language: 'zh-CN',
+    //选择日期后自动关闭 
+    autoclose:true
+  });
+});
+</script>
+<include file="./Application/Admin/View/Common/footer.html" />

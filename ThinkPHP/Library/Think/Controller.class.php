@@ -184,7 +184,7 @@ abstract class Controller {
      * @return void
      */
     protected function error($message='',$jumpUrl='',$ajax=false) {
-        $this->showErrorMsg($message,0,$jumpUrl,$ajax);
+        $this->showMsg($message,0,$jumpUrl,$ajax);
     }
 
     protected function showMsg($message, $code = 0, $jumpUrl = '', $ajax=false) {

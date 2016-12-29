@@ -535,8 +535,6 @@
 	</div>
 </div>
 <include file="./Application/Common/View/footer.html" />
-</body>
-</html>
 <script>
 $(function(){
 	$(".display-wrap li").mouseenter(function(e) {
@@ -636,5 +634,29 @@ $(function(){
     }).mouseleave(function(e) {
  		$(this).css({"opacity":"0.5"});
     });
+
+	function getLastDay(date) {
+		var finalMonth = date.substr(4, 6);
+		date = date.substr(0, 4) + '-' + date.substr(4, 6) + "-01";
+		var nowDate = new Date(date);
+		var nowYear = nowDate.getFullYear(),
+			nowMonth = nowDate.getMonth() + 1;
+		if (nowMonth == 12) {
+			newYear = parseInt(nowYear) + 1;
+			newMonth = "01";
+			newDay = "01";
+		} else {
+			newYear = nowYear;
+			newMonth = parseInt(nowMonth) + 1;
+			newDay = "01";
+		}
+		var newDate = newYear + '-' + newMonth + '-' + newDay;
+		var time = Date.parse(new Date(newDate)) - Date.parse(nowDate) - 86400 * 1000;
+		var finalDate = new Date();
+		finalDate.setTime(Date.parse(nowDate) + parseInt(time));
+		return finalDate.getFullYear() +  '' + finalMonth  + finalDate.getDate();
+	}
+//	console.log(getLastDay('201612'));
+//	console.log(getLastDay('201702'));
 });
 </script>

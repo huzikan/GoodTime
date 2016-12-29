@@ -1,10 +1,20 @@
 <?php
 namespace Home\Controller;
+
 use Think\Controller;
 use Util\simpleExcel;
 
-class IndexController extends Controller {
-    public function index(){
+class IndexController extends BaseController
+{
+    public function _initialize()
+    {
+        //设置顶部导航索引
+        $this->_tplParam['nav']['index'] = 1;
+        $this->assign('_tplParam', $this->_tplParam);
+    }
+
+    public function index()
+    {
         $cookie_prefix = C('COOKIE_PREFIX');
         $userUnique = I("cookie.{$cookie_prefix}userunique/s");
         $userData = json_decode(authcode($userUnique, 'DECODE'), true);
@@ -13,9 +23,10 @@ class IndexController extends Controller {
     }
 
     /**
-     * excel表导出设置
+     * 大数据表导出
      */
-    public function simpleExcel() {
+    public function simpleExcel()
+    {
         $headerMap = array(
             //文本字段
             "textField"    => array('name' => '文本字段', 'type' => 'text'),
@@ -41,7 +52,7 @@ class IndexController extends Controller {
                     //文本字段
                     "textField"    => '2016081720160817200',
                     //日期字段
-                    "dateField"    => date('Y-m-d'), 
+                    "dateField"    => date('Y-m-d'),
                     //数字字段
                     "numberField"  => 10000,
                     //浮点数字段
@@ -56,5 +67,13 @@ class IndexController extends Controller {
         }
 
         $simpleExcel->exportXlsData();
+    }
+
+    /**
+     * 首页
+     */
+    public function myhome()
+    {   
+        $this->display('home');
     }
 }

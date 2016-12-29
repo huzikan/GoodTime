@@ -2,77 +2,99 @@
  * footer css
  **/
 .footer-wrap {
-	width: 100%;
-	overflow: hidden;
 	margin-top: 20px;
 	background-color: #fff;
 }
 
 .footer-container {
-	width: 1200px;
+	color: #8D8D8D;
+	width: 1000px;
+	overflow: hidden;
 	margin: 0 auto;
-	margin-top: 20px;
+	padding: 30px 0 0 20px;
 }
 
-.footer-container ul li {
-	height: 94px;
-	display: inline-block;
-	width: 12%;
-	text-align: center;
+.footer-info {
+	margin-top:20px;
+	height: 100px;
+}
+
+.footer-info p {
+	line-height: 20px;
+	margin-top: 10px;
+}
+
+.footer-logo img {
+	height: 50px;
+}
+
+.footer-nav {
+	height: 100px;
+	background: url('/public/images/ft-wx.jpg') no-repeat right;
+	padding-right: 110px;
 }
 
 .footer-link {
-	width: 48px;
-	height: 48px;
-	margin: 0 auto;
-	background-image: url('/public/images/footer_icon.png');
+	clear: both;
+	float: right;
+	margin-top: 15px;
+	margin-bottom: 5px;
 }
 
-.footer-icon1 {
-	background-position: 0 0;
-}
-
-.footer-icon2 {
-	background-position: 0 -49px;
-}
-
-.footer-icon3 {
-	background-position: 0 -98px;
-}
-
-.footer-icon4 {
-	background-position: 0 -147px;
-}
-
-.footer-icon5 {
-	background-position: 0 -196px;
-}
-
-.footer-icon6 {
-	background-position: 0 -245px;
-}
-
-.footer-icon7 {
-	background-position: 0 -294px;
-}
-
-.footer-icon8 {
-	background-position: 0 343px;
-}
-
-.footer-content{
-	text-align: center;
-	margin-top: 40px;
-}
-
-.footer-content dt{
+.footer-link a {
 	display: inline-block;
-	width:60px;
 	height: 20px;
+	color: #8D8D8D;
 	line-height: 20px;
-	margin-left: 20px;
+	margin-left: 10px;
+	text-decoration: none;
 }
 
-.footer-content dt a:hover{
-	color: red;
+.footer-link a:hover {
+	color: #000;
+}
+
+.footer-share {
+	margin-top: 5px;
+	overflow: hidden;
+}
+
+.footer-share ul li {
+	float: right;
+	margin-right: 10px;
+
+}
+
+.footer-share ul li a {
+	display: block;
+	height: 34px;
+	width: 34px;
+}
+
+.footer-share .share-sina {
+	background: url('/public/images/ft-shares.png') no-repeat 0 0;
+}
+
+.footer-share .share-sina:hover {
+	background-position: -50px 0;
+}
+
+.footer-share .share-weixin {
+	background: url('/public/images/ft-shares.png') no-repeat 0 -34px;
+}
+
+.footer-share .share-weixin:hover {
+	background-position: -50px -34px;
+}
+
+.footer-share .share-eamil {
+	background: url('/public/images/ft-shares.png') no-repeat 0 -102px;
+}
+
+.footer-share .share-eamil:hover {
+	background-position: -50px -102px;
+}
+
+.footer-nav p {
+	clear: both;
 }

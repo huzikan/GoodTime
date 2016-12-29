@@ -8,11 +8,11 @@
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="/public/bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="/public/css/home/common/header.css">
-		<title>登陆测试</title>
+		<title>深白的个人博客</title>
 	</head>
 	<body>
-<script type="text/javascript"src="/public/js/home/member/loginview.js"></script>
-<link rel="stylesheet" type="text/css" href="/public/css/home/member/loginview.css">
+<script type="text/javascript"src="/public/js/home/member/loginView.js"></script>
+<link rel="stylesheet" type="text/css" href="/public/css/home/member/loginView.css">
 <form name="login" id="login">
 	<div class="login-tips-container">
 		<div class="login-tips">
@@ -55,76 +55,29 @@
 <link rel="stylesheet" type="text/css" href="/public/css/home/common/footer.css">
 <div class = "footer-wrap">
 	<div class="footer-container">
-		<ul>
-			<li>
+		<div class="footer-info left-float">
+			<div class="footer-logo">
 				<a href="">
-					<p class="footer-link footer-icon1"></p>
+					<img src="/public/images/ft-logo.jpg" alt="">
 				</a>
-				<p>中国领先</p>
-				<p>私人定制商城</p>
-			</li>
-			<li>
-				<a href="">
-					<p class="footer-link footer-icon2"></p>
-				</a>
-				<p>100%专属定制</p>
-				<p>独一无二为您定制</p>
-			</li>
-			<li>
-				<a href="">
-					<p class="footer-link footer-icon3"></p>
-				</a>
-				<p>100%</p>
-				<p>正品保证</p>
-			</li>
-			<li>
-				<a href="">
-					<p class="footer-link footer-icon4"></p>
-				</a>
-				<p>30天</p>
-				<p>退货保障</p>
-			</li>
-			<li>
-				<a href="">
-					<p class="footer-link footer-icon5"></p>
-				</a>
-				<p>24小时</p>
-				<p>闪电发货</p>
-			</li>
-			<li>
-				<a href="">
-					<p class="footer-link footer-icon6"></p>
-				</a>
-				<p>精美保证</p>
-				<p>让您眼前一亮</p>
-			</li>
-			<li>
-				<a href="">
-					<p class="footer-link footer-icon7"></p>
-				</a>
-				<p>200万用户</p>
-				<p>口碑信赖</p>
-			</li>					
-			<li>
-				<a href="">
-					<p class="footer-link footer-icon8"></p>
-				</a>
-				<p>1250城市</p>
-				<p>货到付款</p>
-			</li>
-		</ul>
-		<div class="footer-content">
-			<dd>
-				<dt><a href="">商品分类</a></dt>
-				<dt><a href="">移动站点</a></dt>
-				<dt><a href="">商家登陆</a></dt>
-				<dt><a href="">招聘英才</a></dt>
-				<dt><a href="">联系我们</a></dt>
-				<dt><a href="">关于我们</a></dt>
-				<dt><a href="">帮助中心</a></dt>
-				<dt><a href="">站点导航</a></dt>
-			</dd>
-			<p>Copyright © 2006-2016 goodtime.com 网上经营许可证号：渝B2-20140235</p>
+			</div>
+			<p>让你的身体和心灵都来一次彻底的旅行吧！</p>
+		</div>
+		<div class="footer-nav right-float">
+			<div class="footer-share">
+				<ul>
+					<li class="share-sina"><a href=""></a></li>
+					<li class="share-weixin"><a href=""></a></li>
+					<li class="share-eamil"><a href=""></a></li>
+				</ul>
+			</div>
+			<div class="footer-link">
+				<a href="">我的微博</a>
+				<a href="">站长统计</a>
+				<a href="">广告合作</a>
+				<a href="">给我留言</a>
+			</div>
+			<p>Copyright 2016 conact me:huzikan@163.com</p>
 		</div>
 	</div>
 </div>

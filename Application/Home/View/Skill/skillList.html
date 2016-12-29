@@ -1,0 +1,580 @@
+<include file="./Application/Common/View/header.html" />
+<include file="./Application/Common/View/headerNav.html" />
+
+<style>
+	.main-wrap{
+		width: 1000px;
+		margin: 20px auto 0 auto;
+		background-color: #fff;
+		overflow: hidden;
+	}
+
+	.banner-wrap{
+		width: 670px;
+		overflow: hidden;
+		float: left;
+	}
+
+	.article-container {
+		overflow: hidden;
+	}
+
+	.article-container h2{
+		font-size: 16px;
+		font-weight: bold;
+		line-height: 36px;
+		color: #333;
+		margin-bottom: 0;
+		border-bottom: #db6d4c 4px solid;
+	}
+
+	.article-container ul li{
+		margin: 0;
+		padding: 30px 0;
+		height: 200px;
+		list-style: none;
+		color: #756F71;
+		border-bottom: 1px solid #CCC;
+	}
+
+	.article-container ul li:hover{
+ 		background-color: #f4f3f3;
+	}
+	
+	.aticle-img-container {
+		float: left;
+		width: 25%;
+		overflow: hidden;
+	}
+
+	.article-img {
+		width: 100%;
+		display: block;
+		margin: auto;
+		-moz-transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		-o-transition: all 0.5s;
+		transition: all 0.5s;
+	}
+
+	.article-img:hover{
+		-moz-transform: scale(1.1, 1.1);
+		-webkit-transform: scale(1.1, 1.1);
+		-o-transform: scale(1.1, 1.1);
+		-ms-transform: scale(1.1, 1.1);
+		transform: scale(1.1, 1.1);
+	}
+
+	.article-content {
+		width: 482px;
+		float: right;
+	}
+
+	.article-content h3 {
+		font-size: 16px;
+		font-weight: bold;
+		margin: 0 0 10px 0;
+	}
+
+	.article-content .desc {
+		margin-top: 15px;
+		font-size: 10px;
+		line-height: 22px;
+	}
+
+	.article-content .tag {
+		margin-top: 10px;
+		width: 100%;
+		display: inline-block;
+	}
+
+	.article-content .tag a {
+		display: inline-block;
+		height: 18px;
+		line-height: 18px;
+		color: #759b08;
+	}
+
+	.article-content .tag b {
+		display: inline-block;
+		height: 18px;
+		line-height: 18px;
+	}
+
+	.article-content .tag em {
+		display: inline-block;
+		width: 15px;
+		height: 18px;
+		vertical-align: middle;
+	}
+
+	.article-content .tag span {
+		margin-right: 10px;
+	}
+
+	.article-content .tag .icon-1 {
+		background: url('/public/images/home/newsbg01.png') no-repeat;
+	}
+
+	.article-content .tag .icon-2 {
+		background: url('/public/images/home/newsbg02.png') no-repeat;
+	}
+
+	.article-content .tag .icon-3 {
+		background: url('/public/images/home/newsbg03.png') no-repeat;
+	}
+
+	.article-content .tag .icon-4 {
+		background: url('/public/images/home/newsbg04.png') no-repeat;
+	}
+
+    .message-page {
+	    margin:20px 0;
+	    text-align: right;
+	}
+
+	.message-page a {
+	    display: inline-block;
+	    position: relative;
+	    width: 30px;
+	    height: 30px;
+	    border-radius: 100%;
+	    background-color: #f3f3f3;
+	    margin-left: 4px;
+	    text-align: center;
+	    line-height: 30px;
+	    color: #333;
+	    font-size: 12px;
+	}
+
+	.message-page a:hover {
+	    color: #fff;
+	    background-color: #59bcfe;
+	}
+
+    .message-page a:link {
+        text-decoration: none;
+    }
+    
+    .message-page a.cur-page {
+        color: #fff;
+        background-color: #59bcfe;
+    }
+</style>
+<div>
+	<div class="main-wrap">
+		<div class="banner-wrap">
+			<div class="article-container" id="article-top">
+				<div>
+					<h2>技术积累</h2>
+					<ul>
+						<li>
+							<div class="aticle-img-container">
+								<img class="article-img" src="/public/images/home/06.jpg" alt="">
+							</div>
+							<div class="article-content">
+								<h3><a href="">住在手机里的朋友</a></h3>
+								<p class="desc">通信时代，无论是初次相见还是老友重逢，交换联系方式，常常是彼此交换名片，然后郑重或是出于礼貌用手机记下对方的电话号码。在快节奏的生活里，我们不知不觉中就成为住在别人手机里的朋友。又因某些意外，变成了别人手机里匆忙的过客，这种快餐式的友谊 ...</p>
+								<p class="tag">
+									<span class="left-float">
+										<em class="icon-1"></em>
+										<a href="">个人博客</a>
+									</span>
+									<span class="left-float">
+										<em class="icon-2"></em>
+										<b>2016-09-04</b>
+									</span>
+									<span class="right-float">
+										<em class="icon-4"></em>
+										<a href="">浏览（459）</a>
+									</span>
+									<span class="right-float">
+										<em class="icon-3"></em>
+										<a href="">评论（30）</a>
+									</span>
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="aticle-img-container">
+								<img class="article-img" src="/public/images/home/01.jpg" alt="">
+							</div>
+							<div class="article-content">
+								<h3><a href="">教你怎样用欠费手机拨打电话</a></h3>
+								<p class="desc">通信时代，无论是初次相见还是老友重逢，交换联系方式，常常是彼此交换名片，然后郑重或是出于礼貌用手机记下对方的电话号码。在快节奏的生活里，我们不知不觉中就成为住在别人手机里的朋友。又因某些意外，变成了别人手机里匆忙的过客，这种快餐式的友谊 ...</p>
+								<p class="tag">
+									<span class="left-float">
+										<em class="icon-1"></em>
+										<a href="">个人博客</a>
+									</span>
+									<span class="left-float">
+										<em class="icon-2"></em>
+										<b>2016-09-04</b>
+									</span>
+									<span class="right-float">
+										<em class="icon-4"></em>
+										<a href="">浏览（459）</a>
+									</span>
+									<span class="right-float">
+										<em class="icon-3"></em>
+										<a href="">评论（30）</a>
+									</span>
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="aticle-img-container">
+								<img class="article-img" src="/public/images/home/02.jpg" alt="">
+							</div>
+							<div class="article-content">
+								<h3><a href="">原来以为，一个人的勇敢是，删掉他的手机号码...</a></h3>
+								<p class="desc">通信时代，无论是初次相见还是老友重逢，交换联系方式，常常是彼此交换名片，然后郑重或是出于礼貌用手机记下对方的电话号码。在快节奏的生活里，我们不知不觉中就成为住在别人手机里的朋友。又因某些意外，变成了别人手机里匆忙的过客，这种快餐式的友谊 ...</p>
+								<p class="tag">
+									<span class="left-float">
+										<em class="icon-1"></em>
+										<a href="">个人博客</a>
+									</span>
+									<span class="left-float">
+										<em class="icon-2"></em>
+										<b>2016-09-04</b>
+									</span>
+									<span class="right-float">
+										<em class="icon-4"></em>
+										<a href="">浏览（459）</a>
+									</span>
+									<span class="right-float">
+										<em class="icon-3"></em>
+										<a href="">评论（30）</a>
+									</span>
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="aticle-img-container">
+								<img class="article-img" src="/public/images/home/03.jpg" alt="">
+							</div>
+							<div class="article-content">
+								<h3><a href="">手机的16个惊人小秘密，据说99.999%的人都不知</a></h3>
+								<p class="desc">通信时代，无论是初次相见还是老友重逢，交换联系方式，常常是彼此交换名片，然后郑重或是出于礼貌用手机记下对方的电话号码。在快节奏的生活里，我们不知不觉中就成为住在别人手机里的朋友。又因某些意外，变成了别人手机里匆忙的过客，这种快餐式的友谊 ...</p>
+								<p class="tag">
+									<span class="left-float">
+										<em class="icon-1"></em>
+										<a href="">个人博客</a>
+									</span>
+									<span class="left-float">
+										<em class="icon-2"></em>
+										<b>2016-09-04</b>
+									</span>
+									<span class="right-float">
+										<em class="icon-4"></em>
+										<a href="">浏览（459）</a>
+									</span>
+									<span class="right-float">
+										<em class="icon-3"></em>
+										<a href="">评论（30）</a>
+									</span>
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="aticle-img-container">
+								<img class="article-img" src="/public/images/home/04.jpg" alt="">
+							</div>
+							<div class="article-content">
+								<h3><a href="">你面对的是生活而不是手机</a></h3>
+								<p class="desc">通信时代，无论是初次相见还是老友重逢，交换联系方式，常常是彼此交换名片，然后郑重或是出于礼貌用手机记下对方的电话号码。在快节奏的生活里，我们不知不觉中就成为住在别人手机里的朋友。又因某些意外，变成了别人手机里匆忙的过客，这种快餐式的友谊 ...</p>
+								<p class="tag">
+									<span class="left-float">
+										<em class="icon-1"></em>
+										<a href="">个人博客</a>
+									</span>
+									<span class="left-float">
+										<em class="icon-2"></em>
+										<b>2016-09-04</b>
+									</span>
+									<span class="right-float">
+										<em class="icon-4"></em>
+										<a href="">浏览（459）</a>
+									</span>
+									<span class="right-float">
+										<em class="icon-3"></em>
+										<a href="">评论（30）</a>
+									</span>
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="aticle-img-container">
+								<img class="article-img" src="/public/images/home/05.jpg" alt="">
+							</div>
+							<div class="article-content">
+								<h3><a href="">豪雅手机正式发布! 在法国全手工打造的奢侈品</a></h3>
+								<p class="desc">通信时代，无论是初次相见还是老友重逢，交换联系方式，常常是彼此交换名片，然后郑重或是出于礼貌用手机记下对方的电话号码。在快节奏的生活里，我们不知不觉中就成为住在别人手机里的朋友。又因某些意外，变成了别人手机里匆忙的过客，这种快餐式的友谊 ...</p>
+								<p class="tag">
+									<span class="left-float">
+										<em class="icon-1"></em>
+										<a href="">个人博客</a>
+									</span>
+									<span class="left-float">
+										<em class="icon-2"></em>
+										<b>2016-09-04</b>
+									</span>
+									<span class="right-float">
+										<em class="icon-4"></em>
+										<a href="">浏览（459）</a>
+									</span>
+									<span class="right-float">
+										<em class="icon-3"></em>
+										<a href="">评论（30）</a>
+									</span>
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="aticle-img-container">
+								<img class="article-img" src="/public/images/home/04.jpg" alt="">
+							</div>
+							<div class="article-content">
+								<h3><a href="">你面对的是生活而不是手机</a></h3>
+								<p class="desc">通信时代，无论是初次相见还是老友重逢，交换联系方式，常常是彼此交换名片，然后郑重或是出于礼貌用手机记下对方的电话号码。在快节奏的生活里，我们不知不觉中就成为住在别人手机里的朋友。又因某些意外，变成了别人手机里匆忙的过客，这种快餐式的友谊 ...</p>
+								<p class="tag">
+									<span class="left-float">
+										<em class="icon-1"></em>
+										<a href="">个人博客</a>
+									</span>
+									<span class="left-float">
+										<em class="icon-2"></em>
+										<b>2016-09-04</b>
+									</span>
+									<span class="right-float">
+										<em class="icon-4"></em>
+										<a href="">浏览（459）</a>
+									</span>
+									<span class="right-float">
+										<em class="icon-3"></em>
+										<a href="">评论（30）</a>
+									</span>
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="aticle-img-container">
+								<img class="article-img" src="/public/images/home/04.jpg" alt="">
+							</div>
+							<div class="article-content">
+								<h3><a href="">你面对的是生活而不是手机</a></h3>
+								<p class="desc">通信时代，无论是初次相见还是老友重逢，交换联系方式，常常是彼此交换名片，然后郑重或是出于礼貌用手机记下对方的电话号码。在快节奏的生活里，我们不知不觉中就成为住在别人手机里的朋友。又因某些意外，变成了别人手机里匆忙的过客，这种快餐式的友谊 ...</p>
+								<p class="tag">
+									<span class="left-float">
+										<em class="icon-1"></em>
+										<a href="">个人博客</a>
+									</span>
+									<span class="left-float">
+										<em class="icon-2"></em>
+										<b>2016-09-04</b>
+									</span>
+									<span class="right-float">
+										<em class="icon-4"></em>
+										<a href="">浏览（459）</a>
+									</span>
+									<span class="right-float">
+										<em class="icon-3"></em>
+										<a href="">评论（30）</a>
+									</span>
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="aticle-img-container">
+								<img class="article-img" src="/public/images/home/04.jpg" alt="">
+							</div>
+							<div class="article-content">
+								<h3><a href="">你面对的是生活而不是手机</a></h3>
+								<p class="desc">通信时代，无论是初次相见还是老友重逢，交换联系方式，常常是彼此交换名片，然后郑重或是出于礼貌用手机记下对方的电话号码。在快节奏的生活里，我们不知不觉中就成为住在别人手机里的朋友。又因某些意外，变成了别人手机里匆忙的过客，这种快餐式的友谊 ...</p>
+								<p class="tag">
+									<span class="left-float">
+										<em class="icon-1"></em>
+										<a href="">个人博客</a>
+									</span>
+									<span class="left-float">
+										<em class="icon-2"></em>
+										<b>2016-09-04</b>
+									</span>
+									<span class="right-float">
+										<em class="icon-4"></em>
+										<a href="">浏览（459）</a>
+									</span>
+									<span class="right-float">
+										<em class="icon-3"></em>
+										<a href="">评论（30）</a>
+									</span>
+								</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+            	<div class="message-page" pageSize='5' totalSize="55">
+                </div>
+			</div>
+		</div>
+		<include file="./Application/Home/View/Common/rightSide.html" />
+	</div>
+</div>
+<include file="./Application/Common/View/footer.html" />
+<script>
+$(function(){
+    function pageBar(page) {
+        this._handle = page;
+        this.pageSize = page.attr('pageSize');
+        this.totalSize = page.attr('totalSize');
+        this._init();
+    }
+
+    //原型方法定义
+    pageBar.prototype = {
+        //初始化分页样式
+        '_init': function() {
+            this.pageIndex = this.pageIndex ?  parseInt(this.pageIndex) : 1; 
+            if (this.totalSize <= 0) {
+                return null;
+            }
+            var barhtml = '<a href="javascript:;" class="prev">&lt;</a>';
+            var totalPage = Math.ceil(this.totalSize / this.pageSize);
+            //隐藏模式
+            if (totalPage >= 9) {
+                var barArr = this._createBar(totalPage);
+                for (var i = 0; i < barArr.length; i++) {
+                    if (barArr[i] == this.pageIndex) {
+                        barhtml += '<a href="javascript:;" class="cur-page">' + barArr[i] + '</a>';
+                    } else {
+                        barhtml += '<a href="javascript:;">' + barArr[i] + '</a>';
+                    }
+                };
+            } else {
+                for (var i = 1; i <= totalPage; i++) {
+                    if (i == this.pageIndex) {
+                        barhtml += '<a href="javascript:;" class="cur-page">' + i + '</a>';
+                    } else {
+                        barhtml += '<a href="javascript:;">' + i + '</a>';
+                    }
+                }
+            }
+            barhtml += '<a href="javascript:;" class="next">&gt;</a>';
+            this._handle.html(barhtml);
+        },
+        '_createBar': function(totalPage) {
+            //隐藏策略
+            var leftBarArr = [],
+                rightBarArr = [];
+            if (this.pageIndex > 1) {
+                //前置省略
+                if (this.pageIndex >= 5) {
+                    leftBarArr = [1, 2, '...', this.pageIndex - 1];
+                    if (this.pageIndex == totalPage) {
+                        leftBarArr  =  [1, 2, '...', this.pageIndex - 2, this.pageIndex - 1];
+                    }
+                } else {
+                    for (var x = 1; x < this.pageIndex; x++) {
+                        leftBarArr.push(x);
+                    };
+                }
+            }
+            //后置省略
+            if (this.pageIndex < totalPage) {
+                if (totalPage - this.pageIndex > 3) {
+                    rightBarArr = [this.pageIndex + 1, '...', totalPage - 1, totalPage];
+                    if (this.pageIndex == 1) {
+                        rightBarArr  = [this.pageIndex + 1, this.pageIndex + 2 , '...', totalPage - 1, totalPage];
+                    }
+                } else {
+                    for (var x = this.pageIndex + 1; x <= totalPage; x++) {
+                        rightBarArr.push(x);
+                    };
+                }
+            }
+            //生成样式
+            leftBarArr.push(this.pageIndex);
+
+            return leftBarArr.concat(rightBarArr);
+        },
+        //响应单击事件
+        'pageClick': function(obj, url, callBack) {
+            this._handle.on('click', 'a', function() {
+                var cusorContent = $(this).html();
+                var pageIndex;
+                //特殊标识处理
+                if (cusorContent == '...') {
+                    return true;
+                } else if (cusorContent == '&lt;') {
+                    if (obj.pageIndex <= 1) {
+                       return true; 
+                    }
+                    pageIndex = obj.pageIndex - 1;
+                } else if (cusorContent == '&gt;') {
+                    if (obj.pageIndex >= Math.ceil(obj.totalSize / obj.pageSize)) {
+                       return true;
+                    }
+                    pageIndex = obj.pageIndex + 1;
+                } else {
+                    pageIndex = cusorContent;
+                }
+
+                //获取加载数据
+                $.ajax({
+                    url: url + '?pageIndex=' + pageIndex,
+                    type: 'GET',
+                    dataType: 'json',
+                }).success(function(data) {
+                    if (data.success) {
+                        callBack(data.data);
+                    } else {
+                        alert(data.data);
+                    }
+                });
+                obj.pageIndex = pageIndex;
+                obj._init();
+            });
+        }
+    };
+
+    var pageBar = new pageBar($('.message-page'));
+    pageBar.pageClick(pageBar, '/Home/Message/getmessagelist', function(list){pageDataSwitch(list)});
+    function pageDataSwitch(list) {
+        var listItem = '',
+            listHtml = '';
+        for (var i = 0; i < list.length; i++) {
+            listItem = 
+            '<li>\
+                <div class="head-img-container">\
+                    <a href="">\
+                        <img src="' + list[i].headImg + '" alt="">\
+                    </a>\
+                </div>\
+                <div class="content-container">\
+                    <h5>' + list[i].userName + '</h5>\
+                    <p>' + list[i].content +'</p>\
+                    <div class="message-tag">\
+                        <span>\
+                            ' + list[i].time + '\
+                        </span>\
+                        <span class="right-float">\
+                            <em class="icon-4"></em>\
+                            <a href="">回复（' + list[i].agreeCount + '）</a>\
+                        </span>\
+                        <span class="right-float">\
+                            <em class="icon-3"></em>\
+                            <a href="">赞（' + list[i].replyCount + '）</a>\
+                        </span>\
+                    </div>\
+                </div>\
+            </li>';
+            listHtml += listItem;
+        };
+        $(".message-container>ul").html(listHtml);
+        //回到顶部
+        // $('html,body').animate({scrollTop: $("#article-top").offset().top}, 100);
+    
+        $('html,body').scrollTop($("#article-top").offset().top);
+    }
+});
+</script>

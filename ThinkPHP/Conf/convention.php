@@ -54,12 +54,12 @@ return  array(
 
     /* 数据库设置 */
     'DB_TYPE'               => 'mysql',     // 数据库类型
-    'DB_HOST'               => '192.168.0.102', // 服务器地址
-    'DB_NAME'               => 'test',          // 数据库名
-    'DB_USER'               => 'root',      // 用户名
-    'DB_PWD'                => '66274335',  // 密码
+    'DB_HOST'               => '127.0.0.1', // 服务器地址
+    'DB_NAME'               => 'cx_blog',          // 数据库名
+    'DB_USER'               => 'work',      // 用户名
+    'DB_PWD'                => '123456',  // 密码
     'DB_PORT'               => '3306',      // 端口
-    'DB_PREFIX'             =>  '',    // 数据库表前缀
+    'DB_PREFIX'             =>  'cx_',    // 数据库表前缀
     'DB_PARAMS'          	=>  array(), // 数据库连接参数    
     'DB_DEBUG'  			=>  TRUE, // 数据库调试模式 开启后可以记录SQL日志
     'DB_FIELDS_CACHE'       =>  true,        // 启用字段缓存
@@ -163,5 +163,4 @@ return  array(
     'CHECK_APP_DIR'         =>  true,       // 是否检查应用目录是否创建
     'FILE_UPLOAD_TYPE'      =>  'Local',    // 文件上传方式
     'DATA_CRYPT_TYPE'       =>  'Think',    // 数据加密方式
-
 );

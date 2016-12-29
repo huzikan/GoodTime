@@ -1,0 +1,108 @@
+.top-wrap {
+    height: 32px;
+    margin: 0 auto;
+    line-height: 32px;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+.top-wrap a:hover{
+    color:red;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.site-top {
+    width:1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo-container {
+    width:300px;
+    height: 32px;
+    float: left;
+}
+
+.logo-container a {
+    height: 32px;
+    width: 70px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.site-link{
+    text-decoration: none;
+    color: #f9f9f9;
+}
+
+.site-desc {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.sitemap-container {
+    float: right;
+    overflow: hidden;
+}
+
+.sitemap-container ul{
+    display: inline;
+}
+
+.sitemap-container li{
+    float: left;
+}
+
+.sitemap-container a {
+    height: 20px;
+    margin-left: 10px;
+    padding-right: 10px;
+}
+
+.sitemap-container .split{
+    border-right: 1px solid #848887;
+}
+
+.header-nav-wrap {
+    background-color: #4D81C7;
+}
+
+.header-nav {
+    width: 1000px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.header-nav ul li {
+    display: inline-block;
+}
+
+.header-nav ul li a {
+    display: block;
+    height: 50px;
+    line-height: 46px;
+    text-align: center;
+    font-size: 16px;
+    padding: 0 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-nav ul li a:hover {
+    color: #000;
+    background-color: #f0f0f0;
+    border-top: 4px solid #f77825;
+}
+
+.header-nav ul li .header-nav-cur {
+    color: #000;
+    background-color: #fff;
+    border-top: 4px solid #f77825;
+}
+
+.header-banner {
+    height: 150px;
+    width: 100%;
+    background: url('/public/images/header-banner.jpg') no-repeat;
+}

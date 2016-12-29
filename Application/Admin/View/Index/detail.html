@@ -1,0 +1,166 @@
+<include file="./Application/Admin/View/Common/header.html" />
+<!-- <include file="./Application/Admin/View/Common/leftSide.html" /> -->
+<!-- 配置文件 -->
+<script type="text/javascript" src="/public/plugin/utf8-php/ueditor.config.js"></script>
+<!-- 编辑器源码文件 -->
+<script type="text/javascript" src="/public/plugin/utf8-php/ueditor.all.js"></script>
+<style>
+  .upload-container{
+    position:relative;width:500px
+  }
+
+  .upload-file{
+    position:absolute;
+    filter:alpha(opacity:0);opacity: 0;
+  }
+
+  .pic-container {
+    width:450px;
+    margin: 10px 0px;
+  }
+  .pic-container>ul{
+    margin: 0px;
+    padding:0px;
+  }
+  .pic-container>ul>li{
+    display: inline-block;
+    border: 1px solid #D2CFCF;
+    margin-left: 10px;
+  }
+  .pic-container>ul>li>img{
+    max-width: 200px;
+    max-height:200px;
+  }
+</style>
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper" style="min-height: 298px;background-color: #fff;">
+  <!-- Content Header (Page header) -->
+  <section class="content-header">
+    <span>站点导航：<a href="">内容管理 </a>&gt;<a href=""> 文章管理</a></span>
+  </section>
+  <!-- Main content -->
+  <section class="content content-container">
+    <form class="form-horizontal" role="form" method="post" id="article-form">
+      <div class="form-group">
+        <label class="control-label col-md-2" for="article_title">文章标题：</label>
+        <div class="col-md-6">
+          <input type="hidden" name="id" id="id" value="{$article.id}">
+          <input type="text" class="form-control" name="article_title" id="article_title" value="{$article.title}">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-md-2" for="img_cover">封面图：</label>
+        <div id="uploadForm" class="upload-container col-md-6">
+          <input id="img_cover" type="file" class="btn btn-success upload-file" />
+          <button id="upload_btn" type="button" class="btn btn-success">上传图片</button>
+          <div class="pic-container"><ul></ul></div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label  col-md-2" for="article_type">文章类型：</label>
+        <div  class="col-md-2">
+          <select name="article_type" id="article_type" class="form-control">
+            <option value="">全部</option>
+            <foreach name="articleTypeMap" item="type" key="key">
+              <option value="{$key}" <if condition="$article['type'] eq $key">selected="selected"</if>>{$type}</option>
+            </foreach>
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-md-2" for="article_desc">文章描述：</label>
+        <div class="col-md-8">
+          <textarea class="form-control" rows="3" name="article_desc" id="article_desc">{$article.desc}</textarea>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-md-12">
+         <p>=======================================================文章内容=====================================================</p>
+        </label>
+        <br/>
+        <div class="col-md-10">
+          <!-- 加载编辑器的容器 -->
+          <script id="container" name="article_content" type="text/plain">
+          </script>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+          <button type="button" class="btn btn-success article-btn">提交</button>
+          <a href="javascript:history.back(-1);" class="btn btn-default">返回</a>
+        </div>
+      </div>
+    </form>
+    <!-- 多级菜单 -->
+<!--     <li class="active">
+      <a href="#"><i class="fa fa-circle-o"></i> Level One <i class="fa fa-angle-left pull-right"></i></a>
+      <ul class="treeview-menu menu-open" style="display: block;">
+        <li><a href="#"><i class="fa fa-circle-o"></i> Level Two</a></li>
+        <li class="active">
+          <a href="#"><i class="fa fa-circle-o"></i> Level Two <i class="fa fa-angle-left pull-right"></i></a>
+          <ul class="treeview-menu menu-open" style="display: block;">
+            <li><a href="#"><i class="fa fa-circle-o"></i> Level Three</a></li>
+            <li><a href="#"><i class="fa fa-circle-o"></i> Level Three</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li> -->
+  </section>
+  <!-- /.content -->
+</div>
+<script>
+$(function() {
+  //初始化UEditor
+  var ue = UE.getEditor('container');
+  ue.ready(function() {
+    //初始化富文本内容
+    ue.setContent('{$article["content"]}');
+  });
+
+  //提交表单
+  $(".article-btn").bind('click', function(e){
+    var id = $("input[name=id]").val();
+    if (id != '') {
+      $("#article-form").attr('action', 'editArticle');
+    } else {
+      $("#article-form").attr('action', 'addArticle');
+    }
+
+    $("#article-form").submit();
+  });
+
+  //仅支持一次但文件上传
+  function doUpload(picName) {
+    var formData = new FormData();
+    formData.append(picName, $('#' + picName)[0].files[0]);
+    $.ajax({
+      url: '/admin/index/uploadFile',  /*这是处理文件上传的后台地址*/
+      type: 'POST',
+      data: formData,
+      async: false,
+      cache: false,
+      contentType: false,
+      processData: false,
+      success: function (response) {
+        if (response.success) {
+          var picContainer = $(".pic-container>ul");
+          var html = '<li><img name="showpic" src="' +  response.data.url + '">' +
+                  '<input type="hidden" name="' + picName +'[]" value="' + response.data.url + '"/></li>';
+          picContainer.append(html);
+          $('#' + picName).val(null);
+        } else {
+          //错误处理
+          alert(response.data);
+        }
+      }
+    });
+  }
+  $("#upload_btn").bind('click', function(){doUpload("img_cover");});
+  //自动上传
+  $("#img_cover").change(function(){
+    $("#upload_btn").trigger("click");
+  });
+});
+</script>
+  <!-- /.content-wrapper -->
+<include file="./Application/Admin/View/Common/footer.html" />

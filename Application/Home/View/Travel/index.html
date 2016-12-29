@@ -1,0 +1,226 @@
+<include file="./Application/Common/View/header.html" />
+<include file="./Application/Common/View/headerNav.html"/>
+<style>
+    .travel-wrap {
+        margin: 0 auto;
+        overflow: hidden;
+        /*background-image: url('/public/images/travel/bg.png');*/
+    }
+
+    .photo-container {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    .photo-wall-title {
+        border-bottom: #FFF 2px solid;
+        overflow: hidden;
+    }
+
+    .photo-wall-title h3 {
+        background: #474645;
+        width: 180px;
+        height: 25px;
+        font-size: 14px;
+        margin: 15px 0 0 10px;
+        line-height: 25px;
+        color: #fff;
+        text-align: center;
+        box-shadow: #999 4px 5px 1px;
+    }
+
+    .photo-wall-title h3 span {
+        color: #38b3d4;
+    }
+
+
+    .photo-wall-container ul{
+        margin: 20px 0  20px 10px;
+    }
+
+    .photo-wall-container ul li {
+        display: inline-block;
+        overflow: hidden;
+        padding: 5px;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+    }
+
+    .photo-wall-container ul li:hover{
+        background: #666;
+    }
+
+    .photo-wall-container ul li span{
+        display: block;
+        width: 180px;
+        height: 20px;
+        line-height: 20px;
+        overflow: hidden;
+        text-align: center;
+        color: #fff;
+    }
+
+    .photo-wall-container ul li img{
+        background: #FFF;
+        display: block;
+        width: 180px;
+        padding: 4px;
+        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+        /*overflow: hidden;*/
+    }
+
+    .photo-wall-container ul li a{
+        display: block;
+        width: 180px;
+        overflow: hidden;
+    }
+
+    .photo-diary-color {
+        background-color: #fff;
+    }
+
+    .photo-diary-title {
+      color: #444;
+      font-size: 18px;
+      margin-left: 10px;
+      background: url('/public/images/travel/h_line.jpg') repeat-x 20px center;
+    }
+
+    .photo-diary-title p {
+        color: #38b3d4;
+    }
+
+    .photo-diary-container ul {
+        margin-top:20px;
+        clear: both;
+    }
+
+    .photo-diary-container ul li {
+        display: inline-block;
+        height: 430px;
+        width: 320px;
+        margin: 0 5px;
+        border:#FFF 10px solid
+    }
+
+    .photo-diary-container ul li .photo-title {
+        margin-top: 20px;
+        text-shadow: #fff 1px 1px 0px;
+        line-height: 26px;
+        text-align: center;
+    }
+
+    .photo-diary-container ul li .photo-title a {
+        font-size: 16px;
+        text-decoration: none;
+    }
+
+    .photo-diary-container ul li .photo-title a:hover {
+        color: red;
+    }
+    
+    .photo-diary-container ul li .photo-text {
+        margin-top: -5px;
+        padding: 0 10px;
+        line-height: 20px;
+        height: 100px;
+        text-shadow: #fff 1px 1px 0px;
+        overflow: hidden;
+    }
+
+    .photo-img-container {
+        display: block;
+        overflow: hidden;
+        width: 300px;
+        height: 256px;
+    }
+
+    .photo-img {
+        width: 100%;
+        display: block;
+        margin: auto;
+        -moz-transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+    }
+
+    .photo-img:hover{
+        -moz-transform: scale(1.1, 1.1);
+        -webkit-transform: scale(1.1, 1.1);
+        -o-transform: scale(1.1, 1.1);
+        -ms-transform: scale(1.1, 1.1);
+        transform: scale(1.1, 1.1);
+    }
+</style>
+<!-- <link rel="stylesheet" type="text/css" href="/public/css/home/common/footer.css"> -->
+<div class="travel-wrap">
+    <div class="photo-container">
+        <!-- 照片墙 -->
+        <div class="photo-wall-container">
+            <div class="photo-wall-title">
+                <h3><span>那些风景|</span>New Photos</h3>
+            </div>
+            <ul>
+                <li>
+                    <a href="">
+                        <img src="/public/images/travel/wall_1.jpg" alt="">
+                    </a>
+                    <span>现实重组 黑白超现实主义作品 孤独先生</span>
+                </li>
+                <li>
+                    <a href=""><img src="/public/images/travel/wall_2.jpg" alt=""></a>
+                    <span>现实重组 黑白超现实主义作品 孤独先生</span>
+                </li>
+                <li>
+                    <a href=""><img src="/public/images/travel/wall_3.jpg" alt=""></a>
+                    <span>现实重组 黑白超现实主义作品 孤独先生</span>
+                </li>
+                <li>
+                    <a href=""><img src="/public/images/travel/wall_4.jpg" alt=""></a>
+                    <span>现实重组 黑白超现实主义作品 孤独先生</span>    
+                </li>
+                <li>
+                    <a href=""><img src="/public/images/travel/wall_5.jpg" alt=""></a>
+                    <span>现实重组 黑白超现实主义作品 孤独先生</span>
+                </li>
+            </ul>
+        </div>
+        <!-- 旅行日记 -->
+        <div class="photo-diary-container">
+            <div class="photo-diary-color">
+                <h3 class="photo-diary-title">
+                    <p>
+                        旅行日记
+                    </p>
+                </h3>
+            </div>
+            <ul>
+                <li>
+                    <a href="" class="photo-img-container">
+                        <img src="/public/images/travel/photo_1.jpg" class="photo-img">
+                    </a>
+                    <p class="photo-title"><a href="">愿有人陪你颠沛流离</a></p>
+                    <p class="photo-text">有一天晚上我收到朋友的邮件，他问我怎样可以最快地摆脱寂寞，我想了想不知道应该怎么回答他，因为我从来没有摆脱过这个问题，我只能去习惯它，就像习惯身体的一部分。</p>
+                </li>
+                <li>
+                    <a href="" class="photo-img-container">
+                        <img src="/public/images/travel/photo_2.jpg" class="photo-img">
+                    </a>
+                    <p class="photo-title"><a href="">只要相信没有到不了的明天</a></p>
+                    <p class="photo-text">不管你现在是一个人走在异乡的街道上始终没有找到一丝归属感，还是你在跟朋友们一起吃饭开心地笑着的时候闪过一丝落寞。</p>
+                </li>
+                <li>
+                    <a href="" class="photo-img-container">
+                        <img src="/public/images/travel/photo_3.jpg" class="photo-img">
+                    </a>
+                    <p class="photo-title"><a href="">美丽的代价</a></p>
+                    <p class="photo-text">让世界拥有它的脚步，让我保有我的茧。当溃烂已极的心灵再不想做一丝一毫的思索时，就让我静静回到我的茧内，以回忆为睡榻，以悲哀为覆被，这是我唯一的美丽。</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<include file="./Application/Common/View/footer.html" />
