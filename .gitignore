@@ -1,0 +1,9 @@
+*.iml
+**/target
+.idea
+*.class
+**/.DS_Store
+**/.svn
+/codeconverter.bat
+/codeconverter-1.1.0.jar
+**/vendor

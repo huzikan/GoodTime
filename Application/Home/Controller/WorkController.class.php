@@ -17,7 +17,7 @@ class WorkController extends BaseController
      */
     public function workList()
     {
-        $this->display('skill/skillList');
+        $this->display('Skill/skillList');
     }
 
     /**
@@ -29,6 +29,6 @@ class WorkController extends BaseController
         $articleModel = M('article');
         $articleData = $articleModel->find($article_id);
         $this->assign('article', $articleData);
-        $this->display('common/detail');
+        $this->display('Common/detail');
     }
 }

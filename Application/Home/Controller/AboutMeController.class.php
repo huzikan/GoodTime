@@ -18,6 +18,6 @@ class AboutMeController extends BaseController
      */
     public function index()
     {
-        $this->display('common/aboutMe'); 
+        $this->display('Common/aboutMe');
     }
 }
