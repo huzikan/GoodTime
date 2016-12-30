@@ -54,7 +54,7 @@ class MemberController extends BaseController
         $user = $tb_user->find();
         if ($userName == $user['username'] && $pwd == $user['password']) {
             $this->writeCookie($user);
-            $this->redirect("/Admin/Index/Index");
+            redirect("/Admin/Index/index");
         }
 
         $this->showMsg('您输入的用户名或密码错误!');
@@ -81,7 +81,7 @@ class MemberController extends BaseController
             'expire'    => 86400, // cookie 保存时间
             'httponly'  => true, // httponly设置
         );
-
+	
         cookie('userunique', authcode($userUnique, 'ENCODE'), $option);
     }
 
