@@ -332,46 +332,7 @@
 			background-color:rgba(228,71,21,0.9); 
 		}
     </style>
-<link rel="stylesheet" type="text/css" href="/public/css/home/common/header_nav.css">
-<div class="top-wrap">
-    <div class="site-top">
-        <div class="logo-container">
-            <a class="site-link" href='http://www.zbj.com'>
-                <img src="/public/images/goodtime_logo.png">
-            </a>
-            <span class="site-desc">带给您不一样的美好生活</span>
-        </div>
-        <div class="sitemap-container">
-            <?php if(($_user['uid']) > "0"): ?><span class="left-float">欢迎您，<?php echo ($_user['username']); ?></span><?php endif; ?>
-            <ul>
-                <?php if(($_user['uid']) > "0"): ?><li><a class="split" href="<?php echo U('member/loginOut');?>">退出</a></li>
-                    <li><a class="split" href="">个人中心</a></li>
-                <?php else: ?>
-                	<li><a class="split" href="<?php echo U('member/loginView');?>">登陆</a></li>
-                	<li><a class="split" href="">注册</a></li><?php endif; ?>
-                <li><a href="">帮助中心</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
-<div class="header-nav-wrap">
-    <div class="nav-container">
-        <div class="nav-logo">
-            <a class="nav-link" href="http://www.zbj.com">
-                <img src="/public/images/nav_logo.png">
-            </a>
-        </div>
-        <div class="header-nav">
-            <ul>
-                <li><a class="header-nav-cur" href="">首页</a></li>
-                <li><a href="">绿色花园</a></li>
-                <li><a href="">蓝色海洋</a></li>
-                <li><a href="">我的账户</a></li>
-                <li><a href="">帮助中心</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
+
 <div class = "content-wrap">
 	<div class = "left-ad-wrap">
 		<div class="hot-laber">
