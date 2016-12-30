@@ -54,7 +54,7 @@ class MemberController extends BaseController
         $user = $tb_user->find();
         if ($userName == $user['username'] && $pwd == $user['password']) {
             $this->writeCookie($user);
-            redirect("/Admin/Index/index");
+            redirect("/admin/index/index");
         }
 
         $this->showMsg('您输入的用户名或密码错误!');

@@ -53,7 +53,16 @@
         <div id="uploadForm" class="upload-container col-md-6">
           <input id="img_cover" type="file" class="btn btn-success upload-file" />
           <button id="upload_btn" type="button" class="btn btn-success">上传图片</button>
-          <div class="pic-container"><ul></ul></div>
+          <div class="pic-container">
+            <ul>
+              <if condition="$article['img_cover'] neq ''">
+                <li>
+                    <img name="showpic" src="{$article.img_cover}">
+                    <input type="hidden" name="img_cover" value="{$article.img_cover}"/>
+                </li>
+              </if>
+            </ul>
+          </div>
         </div>
       </div>
       <div class="form-group">
@@ -133,6 +142,7 @@ $(function() {
   function doUpload(picName) {
     var formData = new FormData();
     formData.append(picName, $('#' + picName)[0].files[0]);
+    formData.append('oldFileName', $("input[name='" + picName+ "']").val());
     $.ajax({
       url: '/admin/index/uploadFile',  /*这是处理文件上传的后台地址*/
       type: 'POST',
@@ -144,8 +154,10 @@ $(function() {
       success: function (response) {
         if (response.success) {
           var picContainer = $(".pic-container>ul");
+          //清空以前元素,只能上传单张图片
+          picContainer.children().remove();
           var html = '<li><img name="showpic" src="' +  response.data.url + '">' +
-                  '<input type="hidden" name="' + picName +'[]" value="' + response.data.url + '"/></li>';
+                  '<input type="hidden" name="' + picName +'" value="' + response.data.url + '"/></li>';
           picContainer.append(html);
           $('#' + picName).val(null);
         } else {

@@ -25,7 +25,7 @@ class IndexController extends BaseController
     {
         parent::__construct();
         if (!$this->isLogin()) {
-            redirect("/Admin/Member/loginview");
+            redirect("/admin/member/loginview");
         }
         $this->articleModel = M('article');
     }
@@ -99,6 +99,11 @@ class IndexController extends BaseController
             $this->error('文章标题不能为空！');
         }
 
+        $imgCover = I('post.img_cover');
+        if (empty($imgCover)) {
+            $this->error('封面图片不能为空！');
+        }
+
         $type = I('post.article_type');
         if ($type < 1) {
             $this->error('文章类型不能为空！');
@@ -115,7 +120,7 @@ class IndexController extends BaseController
         }
 
         $data = array(
-            'cover_img'        => 'www.baidu.com',
+            'img_cover'        => $imgCover,
             'title'            => $title,
             'desc'             => $descrption,
             'type'             => $type,
@@ -151,6 +156,11 @@ class IndexController extends BaseController
             $this->error('文章标题不能为空！');
         }
 
+        $imgCover = I('post.img_cover');
+        if (empty($imgCover)) {
+            $this->error('封面图片不能为空！');
+        }
+
         $type = I('post.article_type');
         if ($type < 1) {
             $this->error('文章类型不能为空！');
@@ -167,7 +177,7 @@ class IndexController extends BaseController
         }
 
         $updateData = array(
-            'cover_img'        => 'www.baidu.com',
+            'img_cover'        => $imgCover,
             'title'            => $title,
             'desc'             => $descrption,
             'type'             => $type,
@@ -201,6 +211,9 @@ class IndexController extends BaseController
         $_file = $_FILES['img_cover'];
         if (!in_array($_file['type'], $upTypes)) {
             $this->showMsg('只支持图片文件！');
+        }
+        if (file_exists($_POST['oldFileName'])) {
+            unlink($_POST['oldFileName']);
         }
         $fileArr = explode('.', $_file['name']);
         $ext = strtolower(end($fileArr));
