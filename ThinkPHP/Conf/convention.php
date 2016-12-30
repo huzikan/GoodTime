@@ -31,7 +31,7 @@ return  array(
 
     /* Cookie设置 */
     'COOKIE_EXPIRE'         =>  0,       // Cookie有效期
-    'COOKIE_DOMAIN'         =>  'goodtime.com',      // Cookie有效域名
+    'COOKIE_DOMAIN'         =>  'huzikan.com',      // Cookie有效域名
     'COOKIE_PATH'           =>  '/',     // Cookie路径
     'COOKIE_PREFIX'         =>  'gd_',      // Cookie前缀 避免冲突
     'COOKIE_SECURE'         =>  false,   // Cookie安全传输
@@ -54,10 +54,10 @@ return  array(
 
     /* 数据库设置 */
     'DB_TYPE'               => 'mysql',     // 数据库类型
-    'DB_HOST'               => '127.0.0.1', // 服务器地址
+    'DB_HOST'               => '172.18.84.13', // 服务器地址
     'DB_NAME'               => 'cx_blog',          // 数据库名
-    'DB_USER'               => 'work',      // 用户名
-    'DB_PWD'                => '123456',  // 密码
+    'DB_USER'               => 'db_user',      // 用户名
+    'DB_PWD'                => '8&f=8&rsv_bp=0',  // 密码
     'DB_PORT'               => '3306',      // 端口
     'DB_PREFIX'             =>  'cx_',    // 数据库表前缀
     'DB_PARAMS'          	=>  array(), // 数据库连接参数    
