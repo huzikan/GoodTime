@@ -13,7 +13,7 @@ class IndexController extends BaseController
         $this->assign('_tplParam', $this->_tplParam);
     }
 
-    public function index()
+    public function myhome()
     {
         $cookie_prefix = C('COOKIE_PREFIX');
         $userUnique = I("cookie.{$cookie_prefix}userunique/s");
@@ -72,7 +72,7 @@ class IndexController extends BaseController
     /**
      * 首页
      */
-    public function myhome()
+    public function index()
     {   
         $this->display('home');
     }

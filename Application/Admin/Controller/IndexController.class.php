@@ -25,7 +25,7 @@ class IndexController extends BaseController
     {
         parent::__construct();
         if (!$this->isLogin()) {
-            redirect("/admin/member/loginview");
+            redirect("/Admin/Member/loginview");
         }
         $this->articleModel = M('article');
     }
