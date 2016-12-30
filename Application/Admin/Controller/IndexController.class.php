@@ -212,8 +212,9 @@ class IndexController extends BaseController
         if (!in_array($_file['type'], $upTypes)) {
             $this->showMsg('只支持图片文件！');
         }
-        if (file_exists($_POST['oldFileName'])) {
-            unlink($_POST['oldFileName']);
+        $oldFile = APP_ROOT . $_POST['oldFileName'];
+        if (file_exists($oldFile)) {
+            unlink($oldFile);
         }
         $fileArr = explode('.', $_file['name']);
         $ext = strtolower(end($fileArr));
