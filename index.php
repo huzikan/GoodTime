@@ -25,8 +25,6 @@ define('APP_ROOT', __DIR__);
 // 引入composer自动加载文件
 if (file_exists('./vendor/autoload.php')) require './vendor/autoload.php';
 
-require_once("./aws/aws-autoloader.php");
-
 // 引入ThinkPHP入口文件
 require './ThinkPHP/ThinkPHP.php';
 // 亲^_^ 后面不需要任何代码了 就是如此简单
