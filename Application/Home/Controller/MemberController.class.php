@@ -5,7 +5,7 @@ namespace Home\Controller;
 use Think\Controller;
 use Common\Util\ValidCode;
 
-class MemberController extends Controller
+class MemberController extends BaseController
 {
     /**
      * 登陆视图页

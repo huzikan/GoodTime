@@ -374,143 +374,49 @@
                         <span class="sort-cur">最新</span><span>最早</span><span>最热</span>
                     </div>
                     <div class="comment-count right-float">
-                        <span>共<b>5</b>条评论</span>
+                        <span>共<b>{$rowCount}</b>条评论</span>
                     </div>
                 </div>
                 <div class="message-container">
                     <ul>
-                        <li>
+                        <volist name="commentList" id="comment">
+                            <li>
                             <div class="head-img-container">
                                 <a href="">
-                                    <img src="/public/images/message/head-default.jpg" alt="">
+                                    <img src="{$comment.headImg}" alt="">
                                 </a>
                             </div>
                             <div class="content-container">
-                                <h5>孤独的星辰</h5>
-                                <p>让我能自信的去追寻自己的梦。</p>
+                                <h5>{$comment.userName}</h5>
+                                <p>{$comment.content}</p>
                                 <div class="message-tag">
                                     <span>
-                                        2016-09-17 11:12:26
+                                        {$comment.time}
                                     </span>
-                                    <span class="right-float">
-                                        <em class="icon-4"></em>
-                                        <a href="">回复（2）</a>
-                                    </span>
+                                    <!--<span class="right-float">-->
+                                        <!--<em class="icon-4"></em>-->
+                                        <!--<a href="">回复（2）</a>-->
+                                    <!--</span>-->
                                     <span class="right-float">
                                         <em class="icon-3"></em>
-                                        <a href="">赞（30）</a>
+                                        <a href="javascript:;">赞（{$comment.agreeCount}）</a>
                                     </span>
                                 </div>
                             </div>
                         </li>
-                        <li>
-                            <div class="head-img-container">
-                                <a href="">
-                                    <img src="/public/images/message/head-default.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="content-container">
-                                <h5>孤独的星辰</h5>
-                                <p>时间是一个月的时间，我几乎是天天泡在图书馆，晚上11点宿舍断电，我就抱着电脑去旁边的咖啡厅通宵。</p>
-                                <div class="message-tag">
-                                    <span>
-                                        2016-09-17 11:12:26
-                                    </span>
-                                    <span class="right-float">
-                                        <em class="icon-4"></em>
-                                        <a href="">回复（2）</a>
-                                    </span>
-                                    <span class="right-float">
-                                        <em class="icon-3"></em>
-                                        <a href="">赞（30）</a>
-                                    </span>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="head-img-container">
-                                <a href="">
-                                    <img src="/public/images/message/head-default.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="content-container">
-                                <h5>孤独的星辰</h5>
-                                <p>看了很多博主的帖子，我深受鼓舞。</p>
-                                <div class="message-tag">
-                                    <span>
-                                        2016-09-17 11:12:26
-                                    </span>
-                                    <span class="right-float">
-                                        <em class="icon-4"></em>
-                                        <a href="">回复（2）</a>
-                                    </span>
-                                    <span class="right-float">
-                                        <em class="icon-3"></em>
-                                        <a href="">赞（30）</a>
-                                    </span>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="head-img-container">
-                                <a href="">
-                                    <img src="/public/images/message/head-default.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="content-container">
-                                <h5>孤独的星辰</h5>
-                                <p>一辈子也就是几十年的时间吧，如果不能把自己无限的精力投入到有限的青春中，追寻自己的梦，那么活着和喘气又有什么区别呢？所以特别感谢博主，能在我人生最迷茫的时期，看到博主那些让我备受鼓舞和启发的文章。让我能自信的去追寻自己的梦。</p>
-                                <div class="message-tag">
-                                    <span>
-                                        2016-09-17 11:12:26
-                                    </span>
-                                    <span class="right-float">
-                                        <em class="icon-4"></em>
-                                        <a href="">回复（2）</a>
-                                    </span>
-                                    <span class="right-float">
-                                        <em class="icon-3"></em>
-                                        <a href="">赞（30）</a>
-                                    </span>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="head-img-container">
-                                <a href="">
-                                    <img src="/public/images/message/head-default.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="content-container">
-                                <h5>孤独的星辰</h5>
-                                <p>几次拿起早就尘封了多年的网站设计类书本，但是迫于生活无奈又放下。多少次纠结。</p>
-                                <div class="message-tag">
-                                    <span>
-                                        2016-09-17 11:12:26
-                                    </span>
-                                    <span class="right-float">
-                                        <em class="icon-4"></em>
-                                        <a href="">回复（2）</a>
-                                    </span>
-                                    <span class="right-float">
-                                        <em class="icon-3"></em>
-                                        <a href="">赞（30）</a>
-                                    </span>
-                                </div>
-                            </div>
-                        </li>
+                        </volist>
                     </ul>
-                    <div class="message-page" pageSize='5' totalSize="55">
+                    <div class="message-page" pageSize='5' totalSize="{$rowCount}">
                     </div>
                 </div>
                 <div class="message-box">
                     <div class="head-img-container">
-                        <a href="">
+                        <a href="javascript:;">
                             <img src="/public/images/message/head-default.jpg" alt="">
                         </a>
                     </div>
                     <div class="box-content">
-                        <form action="">
+                        <form id="comment_form">
                             <div class="ds-post-toolbar">
                                 <div class="ds-post-options ds-gradient-bg">
                                     <span class="ds-sync"></span>
@@ -519,10 +425,11 @@
                                     <a class="ds-toolbar-button ds-add-emote" title="插入表情"></a>
                                 </div>
                             </div>
-                            <textarea name="" id="" placeholder="说点什么吧..."></textarea>
+                            <input type="hidden" name="article_id" id="article_id" value="{$article.id}">
+                            <textarea name="note" id="" placeholder="说点什么吧..."></textarea>
                             <div class="ds-post-cpntainer">
                                 <span>Ctrl+Enter</span>
-                                <button class="ds-post-button" type="submit">评论</button>
+                                <input type="button" id="comment_btn" class="ds-post-button" value="评论">
                             </div>
                         </form>
                     </div>
@@ -535,9 +442,6 @@
 <include file="./Application/Common/View/footer.html" />
 <script>
 $(function(){
-    // $("html,body").on(function(){
-        
-    // });
     //返回顶部
     $(".return-top").bind("click", function(e) {
         $('body,html').animate({scrollTop:0}, 1000);
@@ -649,7 +553,7 @@ $(function(){
 
                 //获取加载数据
                 $.ajax({
-                    url: url + '?pageIndex=' + pageIndex,
+                    url: url + '?pageIndex=' + pageIndex + '&articleId={$article.id}',
                     type: 'GET',
                     dataType: 'json',
                 }).success(function(data) {
@@ -671,11 +575,10 @@ $(function(){
         var listItem = '',
             listHtml = '';
         for (var i = 0; i < list.length; i++) {
-            console.log(list[i]);
-            listItem = 
+            listItem =
             '<li>\
                 <div class="head-img-container">\
-                    <a href="">\
+                    <a href="javascript:;">\
                         <img src="' + list[i].headImg + '" alt="">\
                     </a>\
                 </div>\
@@ -686,13 +589,13 @@ $(function(){
                         <span>\
                             ' + list[i].time + '\
                         </span>\
-                        <span class="right-float">\
+                        <!--<span class="right-float">\
                             <em class="icon-4"></em>\
                             <a href="">回复（' + list[i].agreeCount + '）</a>\
-                        </span>\
+                        </span>-->\
                         <span class="right-float">\
                             <em class="icon-3"></em>\
-                            <a href="">赞（' + list[i].replyCount + '）</a>\
+                            <a href="javascript:;">赞（' + list[i].replyCount + '）</a>\
                         </span>\
                     </div>\
                 </div>\
@@ -700,8 +603,30 @@ $(function(){
             listHtml += listItem;
         };
         $(".message-container>ul").html(listHtml);
-        //回到顶部
+        //回到评论顶部
         $('html,body').animate({scrollTop: $("#comment-tab").offset().top}, 500);
     }
+
+    //提交评论
+    $("#comment_btn").bind('click', function(e){
+        //提交评论
+        var formData = $("#comment_form").serialize();
+        $.ajax({
+            url: '/home/skill/addComment',
+            type: 'post',
+            data: formData,
+            dataType: 'json',
+            success: function (response) {
+                if (response.success) {
+                    alert('提交成功!');
+                    //触发评论首页的单击事件
+                    $('.message-page>a').eq(1).click();
+                } else {
+                    //错误处理
+                    alert(response.data);
+                }
+            }
+        });
+    });
 });
 </script>

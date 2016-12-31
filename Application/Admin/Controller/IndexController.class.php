@@ -221,7 +221,7 @@ class IndexController extends BaseController
         $fileBasePath = '/public/images/';
         $fileName = $fileBasePath . 'cover/article_cover_' . uniqid() . '.' . $ext;
 	if (!file_exists($_file['tmp_name'])) {
-	    $this->showMsg('零时文件不存在');
+	    $this->showMsg('临时时文件不存在');
 	}
 	$res = move_uploaded_file($_file['tmp_name'], APP_ROOT . $fileName);
 	$data = array('url' => $fileName,'res'=>$res);
