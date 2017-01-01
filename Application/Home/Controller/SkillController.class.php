@@ -31,6 +31,12 @@ class SkillController extends BaseController
         }
         $articleModel = M('article');
         $articleData = $articleModel->find($article_id);
+        if (!empty($articleData)) {
+            $articleData['create_time'] = date('Y-m-d H:i:s', $articleData['create_time']);
+        }
+        //访问数+1
+        $visited_count = ++$articleData['visited_count'];
+        $articleModel->where("id={$article_id}")->setField("visited_count", $visited_count);
         //获取文章评论
         $commentModel = M('article_comment');
         $condition['article_id'] = $article_id;
@@ -41,6 +47,7 @@ class SkillController extends BaseController
         if (!empty($commentList)) {
             foreach ($commentList as $item) {
                 $comment_list[] = array(
+                    'commentId'  => $item['id'],
                     'headImg'    => '/public/images/message/head-default.jpg',
                     'userName'   => $item['comment_username'],
                     'userId'     => $item['comment_userid'],
@@ -84,9 +91,31 @@ class SkillController extends BaseController
             'reply_count'      => 0
         );
         $res = $commentModel->add($commentData);
+        $condition['article_id'] = $article_id;
+        $count = $commentModel->where($condition)->count();
         if ($res < 1) {
             $this->showMsg('评论失败');
         }
-        $this->showMsg('评论成功', 1);
+        $this->showMsg($count, 1);
+    }
+
+    /**
+     * 点赞
+     */
+    public function addAgree()
+    {
+        $comment_id = I("post.comment_id/d");
+        if ($comment_id < 1) {
+            $this->showMsg('无效的评论ID');
+        }
+
+        $commentModel = M('article_comment');
+        $commentData = $commentModel->find($comment_id);
+        $agreeCount = ++$commentData['agree_count'];
+        $res = $commentModel->where("id={$comment_id}")->setField('agree_count',$agreeCount);
+        if ($res < 1) {
+            $this->showMsg('点赞失败');
+        }
+        $this->showMsg($agreeCount, 1);
     }
 }

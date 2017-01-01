@@ -27,6 +27,23 @@ class MessageController extends BaseController
      */
     public function getMessageList()
     {   
+        //排序方式
+        $sortValue = I('get.sortValue/d');
+        $orderBy = '';
+        switch ($sortValue) {
+            case 1:
+                $orderBy = "create_time desc";
+                break;
+            case 2:
+                $orderBy = "create_time asc";
+                break;
+            case 3:
+                $orderBy = "agree_count desc";
+                break;
+            default:
+                $orderBy = "create_time desc";
+                break;
+        }
         $articleId = I('get.articleId/d');
         if ($articleId < 1) {
             $this->showMsg('无效的文章ID');
@@ -37,11 +54,12 @@ class MessageController extends BaseController
         $commentModel = M('article_comment');
         $condition['article_id'] = $articleId;
         //获取评论列表
-        $commentList = $commentModel->page($pageIndex)->limit(5)->order('create_time DESC')->select($condition);
+        $commentList = $commentModel->page($pageIndex)->limit(5)->order($orderBy)->select($condition);
         $comment_list = array();
         if (!empty($commentList)) {
             foreach ($commentList as $item) {
                 $comment_list[] = array(
+                    'commentId'  => $item['id'],
                     'headImg'    => '/public/images/message/head-default.jpg',
                     'userName'   => $item['comment_username'],
                     'userId'     => $item['comment_userid'],

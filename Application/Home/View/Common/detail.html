@@ -329,9 +329,9 @@
             </div>
             <h2 class="new-title">{$article.title}</h2>
             <div class="new-key">
-                <span class="key01">{$article.create_date}</span>
+                <span class="key01">{$article.create_time}</span>
                 <span>共<b>{$article.visited_count}</b>人围观</span>
-                <span class="right-float"><b>{$article.comment_count}</b>条评论</span>
+                <span class="right-float article_comment"><b>{$rowCount}</b>条评论</span>
             </div>
             <div class="new-tag">
                 <span>php</span>
@@ -371,7 +371,9 @@
                 <h2>文章评论</h2>
                 <div class="comment-tab" id="comment-tab">
                     <div class="comment-sort left-float">
-                        <span class="sort-cur">最新</span><span>最早</span><span>最热</span>
+                        <span class="sort-cur" sort-attr="1">最新</span>
+                        <span sort-attr="2">最早</span>
+                        <span sort-attr="3">最热</span>
                     </div>
                     <div class="comment-count right-float">
                         <span>共<b>{$rowCount}</b>条评论</span>
@@ -397,9 +399,9 @@
                                         <!--<em class="icon-4"></em>-->
                                         <!--<a href="">回复（2）</a>-->
                                     <!--</span>-->
-                                    <span class="right-float">
+                                    <span class="right-float agree-btn">
                                         <em class="icon-3"></em>
-                                        <a href="javascript:;">赞（{$comment.agreeCount}）</a>
+                                        <a id-attr="{$comment.commentId}" href="javascript:;">赞（{$comment.agreeCount}）</a>
                                     </span>
                                 </div>
                             </div>
@@ -551,9 +553,10 @@ $(function(){
                     pageIndex = cusorContent;
                 }
 
+                var sortValue = $(".comment-sort>span").filter(".sort-cur").attr('sort-attr');
                 //获取加载数据
                 $.ajax({
-                    url: url + '?pageIndex=' + pageIndex + '&articleId={$article.id}',
+                    url: url + '?pageIndex=' + pageIndex + '&articleId={$article.id}' + '&sortValue=' + sortValue,
                     type: 'GET',
                     dataType: 'json',
                 }).success(function(data) {
@@ -569,8 +572,9 @@ $(function(){
         }
     };
 
-    var pageBar = new pageBar($('.message-page'));
-    pageBar.pageClick(pageBar, '/Home/Message/getmessagelist', function(list){pageDataSwitch(list)});
+    var page = $('.message-page');
+    var pageObj = new pageBar(page);
+    pageObj.pageClick(pageObj, '/Home/Message/getmessagelist', function(list){pageDataSwitch(list)});
     function pageDataSwitch(list) {
         var listItem = '',
             listHtml = '';
@@ -593,9 +597,9 @@ $(function(){
                             <em class="icon-4"></em>\
                             <a href="">回复（' + list[i].agreeCount + '）</a>\
                         </span>-->\
-                        <span class="right-float">\
+                        <span class="right-float agree-btn">\
                             <em class="icon-3"></em>\
-                            <a href="javascript:;">赞（' + list[i].replyCount + '）</a>\
+                            <a id-attr="' + list[i].commentId + '" href="javascript:;">赞（' + list[i].agreeCount + '）</a>\
                         </span>\
                     </div>\
                 </div>\
@@ -618,9 +622,49 @@ $(function(){
             dataType: 'json',
             success: function (response) {
                 if (response.success) {
-                    alert('提交成功!');
+                    //重新生成分页插件
+                    page.attr('totalSize', response.data);
+                    $(".comment-count>span>b").html(response.data);
+                    $(".article_comment>b").html(response.data);
+                    //修正排序参数
+                    var commentSort = $(".comment-sort>span");
+                    commentSort.removeClass('sort-cur');
+                    commentSort.eq(0).addClass('sort-cur');
+                    pageObj = new pageBar(page);
+                    pageObj.pageClick(pageObj, '/Home/Message/getmessagelist', function(list){pageDataSwitch(list)});
                     //触发评论首页的单击事件
                     $('.message-page>a').eq(1).click();
+                } else {
+                    //错误处理
+                    alert(response.data);
+                }
+            }
+        });
+    });
+
+    //评论排序单击事件
+    $(".comment-sort>span").bind('click', function(e) {
+        $(this).siblings().removeClass('sort-cur');
+        $(this).addClass('sort-cur');
+        //重新排序
+        $('.message-page>a').eq(1).click();
+    });
+
+    //点赞响应(事件动态委托)
+    $(".message-container").on('click', '.agree-btn>a', function(e) {
+        //生成提交表单
+        var form = $('<form></form>');
+        var comment_id = $(e.target).attr('id-attr');
+        form.append('<input type="text" name="comment_id" value="' + comment_id + '">');
+        $.ajax({
+            url: '/home/skill/addAgree',
+            type: 'post',
+            data: form.serialize(),
+            dataType: 'json',
+            success: function (response) {
+                if (response.success) {
+                    //重新生成分页插件
+                    $(e.target).html('赞（' + response.data + '）');
                 } else {
                     //错误处理
                     alert(response.data);
