@@ -608,7 +608,7 @@ $(function(){
         };
         $(".message-container>ul").html(listHtml);
         //回到评论顶部
-        $('html,body').animate({scrollTop: $("#comment-tab").offset().top}, 500);
+        $('html,body').stop().animate({scrollTop: $("#comment-tab").offset().top}, 500);
     }
 
     //提交评论
