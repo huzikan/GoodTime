@@ -73,6 +73,7 @@ class SkillController extends BaseController
         if ($article_id < 1) {
             $this->showMsg('无效的文件ID');
         }
+
         //评论内容
         $note = I("post.note/s");
         if (empty($note)) {
