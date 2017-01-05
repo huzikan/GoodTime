@@ -65,14 +65,14 @@ class SkillController extends BaseController
         $commentModel = M('article_comment');
         $condition['article_id'] = $article_id;
         //获取评论列表
-        $commentList = $commentModel->page(1)->limit(5)->order('create_time DESC')->select($condition);
+        $commentList = $commentModel->where($condition)->page(1)->limit(5)->order('create_time DESC')->select();
         $rowCount = $commentModel->where($condition)->count();
         $comment_list = array();
         if (!empty($commentList)) {
             foreach ($commentList as $item) {
                 $comment_list[] = array(
                     'commentId'  => $item['id'],
-                    'headImg'    => '/public/images/message/head-default.jpg',
+                    'headImg'    => $this->imgArr[$item['id'] % 6],
                     'userName'   => $item['comment_username'],
                     'userId'     => $item['comment_userid'],
                     'content'    => $item['note'],
@@ -116,11 +116,11 @@ class SkillController extends BaseController
             'article_id'       => $article_id,
             'note'             => $note,
             'comment_userid'   => 0,
-            'comment_username' => '访客',
+            'comment_username' => $this->nicknameArr[mt_rand(0, 16)],
             'create_time'      => time(),
             'create_date'      => date('Y-m-d'),
             'agree_count'      => 0,
-            'reply_count'      => 0
+            'reply_count'      => 0,
         );
         $res = $commentModel->add($commentData);
         if ($res < 1) {

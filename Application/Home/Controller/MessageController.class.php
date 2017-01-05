@@ -30,7 +30,7 @@ class MessageController extends BaseController
             foreach ($commentList as $item) {
                 $comment_list[] = array(
                     'commentId'  => $item['id'],
-                    'headImg'    => '/public/images/message/head-default.jpg',
+                    'headImg'    => $this->imgArr[$item['id'] % 6],
                     'userName'   => $item['comment_username'],
                     'userId'     => $item['comment_userid'],
                     'content'    => $item['note'],
@@ -86,7 +86,7 @@ class MessageController extends BaseController
             foreach ($commentList as $item) {
                 $comment_list[] = array(
                     'commentId'  => $item['id'],
-                    'headImg'    => '/public/images/message/head-default.jpg',
+                    'headImg'    => $this->imgArr[$item['id'] % 6],
                     'userName'   => $item['comment_username'],
                     'userId'     => $item['comment_userid'],
                     'content'    => $item['note'],
@@ -116,7 +116,7 @@ class MessageController extends BaseController
             'article_id'       => 0,
             'note'             => $note,
             'comment_userid'   => 0,
-            'comment_username' => '访客',
+            'comment_username' => $this->nicknameArr[mt_rand(0, 16)],
             'create_time'      => time(),
             'create_date'      => date('Y-m-d'),
             'agree_count'      => 0,
