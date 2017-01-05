@@ -16,7 +16,31 @@ class SkillController extends BaseController
      * 技术积累列表
      */
     public function skillList()
-    {   
+    {
+        $pageIndex = I('get.pageIndex/d');
+        $pageIndex = $pageIndex > 0 ? $pageIndex : 1;
+        //获取首页推荐内容
+        $articleModel = M('article');
+        $skill_list = $articleModel->where("type = 1")->page($pageIndex)->limit(2)->order("create_time desc")->select();
+        $skillCount = $articleModel->where("type = 1")->count();
+        $skillList = array();
+        if (!empty($skill_list)) {
+            foreach ($skill_list as $item) {
+                $skillList[] = array(
+                    'articleId'    => $item['id'],
+                    'title'        => $item['title'],
+                    'desc'         => $item['desc'],
+                    'type'         => $this->articleTypeMap[$item['type']],
+                    'content'      => $item['content'],
+                    'createDate'   => $item['create_date'],
+                    'commentCount' => $item['comment_count'],
+                    'visitedCount' => $item['visited_count'],
+                    'imgCover'     => $item['img_cover']
+                );
+            }
+        }
+        $this->assign('skillList', $skillList);
+        $this->assign('skillCount', $skillCount);
         $this->display('skillList');
     }
 
@@ -92,11 +116,18 @@ class SkillController extends BaseController
             'reply_count'      => 0
         );
         $res = $commentModel->add($commentData);
-        $condition['article_id'] = $article_id;
-        $count = $commentModel->where($condition)->count();
         if ($res < 1) {
             $this->showMsg('评论失败');
         }
+        $condition['article_id'] = $article_id;
+        $count = $commentModel->where($condition)->count();
+        //修改评论条数(全量更新)
+        $articleModel = M('article');
+        $res = $articleModel->where($condition)->setField("comment_count", $count);
+        if ($res < 1) {
+            $this->showMsg('统计评论失败');
+        }
+
         $this->showMsg($count, 1);
     }
 
@@ -118,5 +149,35 @@ class SkillController extends BaseController
             $this->showMsg('点赞失败');
         }
         $this->showMsg($agreeCount, 1);
+    }
+
+    /**
+     * 异步技术积累列表
+     */
+    public function getSkillList()
+    {
+        $pageIndex = I('get.pageIndex/d');
+        $pageIndex = $pageIndex > 0 ? $pageIndex : 1;
+        //获取首页推荐内容
+        $articleModel = M('article');
+        $skill_list = $articleModel->where("type = 1")->page($pageIndex)->limit(2)->order("create_time desc")->select();
+        $skillList = array();
+        if (!empty($skill_list)) {
+            foreach ($skill_list as $item) {
+                $skillList[] = array(
+                    'articleId'    => $item['id'],
+                    'title'        => $item['title'],
+                    'desc'         => $item['desc'],
+                    'type'         => $this->articleTypeMap[$item['type']],
+                    'content'      => $item['content'],
+                    'createDate'   => $item['create_date'],
+                    'commentCount' => $item['comment_count'],
+                    'visitedCount' => $item['visited_count'],
+                    'imgCover'     => $item['img_cover']
+                );
+            }
+        }
+
+        return $this->showMsg($skillList, 1);
     }
 }

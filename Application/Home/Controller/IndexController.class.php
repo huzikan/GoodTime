@@ -73,7 +73,27 @@ class IndexController extends BaseController
      * 首页
      */
     public function index()
-    {   
+    {
+        //获取首页推荐内容
+        $articleModel = M('article');
+        $recommend_list = $articleModel->where("is_recommend = 1")->limit(7)->order("create_time desc")->select();
+        $recommendList = array();
+        if (!empty($recommend_list)) {
+            foreach ($recommend_list as $item) {
+                $recommendList[] = array(
+                    'articleId'    => $item['id'],
+                    'title'        => $item['title'],
+                    'desc'         => $item['desc'],
+                    'type'         => $this->articleTypeMap[$item['type']],
+                    'content'      => $item['content'],
+                    'createDate'   => $item['create_date'],
+                    'commentCount' => $item['comment_count'],
+                    'visitedCount' => $item['visited_count'],
+                    'imgCover'     => $item['img_cover']
+                );
+            }
+        }
+        $this->assign('recommendList', $recommendList);
         $this->display('home');
     }
 }

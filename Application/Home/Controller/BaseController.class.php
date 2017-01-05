@@ -29,6 +29,19 @@ class BaseController extends Controller
      */
     public $_tplParam;
 
+    /**
+     * 文章类型映射
+     *
+     * @var array
+     */
+    protected $articleTypeMap = array(
+        1 => '技术杂谈',
+        2 => '工作感悟',
+        3 => '生活琐碎',
+        4 => '旅行趣事',
+        5 => '其他'
+    );
+
     public function _initialize() {
 
     }

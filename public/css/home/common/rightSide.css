@@ -295,16 +295,17 @@
 
 .link-wrap {
 	margin-top: 30px;
+	margin-bottom: 20px;
 	overflow: hidden;
 }
 
 .link-wrap ul{
-	background-color: #f9f9f9;
-	padding: 10px;
-	overflow: hidden;
-	border:1px solid #e9e9e9;
-	margin-top: 20px;
-	width: 280px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    overflow: hidden;
+    border:1px solid #e9e9e9;
+    margin-top: 20px;
+    width: 280px;
 }
 
 .link-wrap ul li {
