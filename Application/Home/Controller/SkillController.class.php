@@ -82,6 +82,13 @@ class SkillController extends BaseController
                 );
             }
         }
+
+        //获取上一篇文章
+        $prevArticle = $articleModel->where("id < {$article_id}")->field('id,title')->limit(1)->select();
+        $this->assign('prevArticle', $prevArticle[0]);
+        //获取下一篇文章
+        $nextArticle = $articleModel->where("id > {$article_id}")->field('id,title')->limit(1)->select();
+        $this->assign('nextArticle', $nextArticle[0]);
         $this->assign('commentList', $comment_list);
         $this->assign('rowCount', $rowCount);
         $this->assign('article', $articleData);

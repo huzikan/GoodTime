@@ -23,6 +23,10 @@
         height: 18px;
         background: url('/public/images/sitemap-icon.png');
     }
+
+    .sitenav-container a {
+        text-decoration: none;
+    }
     
     .sitenav-container p span {
         margin-left: 5px;
@@ -74,10 +78,15 @@
 
     .new-content .footend {
         margin-top: 20px;
-        padding: 15px 15px 15px 115px;
-        background: url('/public/images/ftend.png') no-repeat 15px center #f6f5f2;
+        padding: 15px 15px 15px 100px;
+        background: url('/public/images/ft-wx.jpg') no-repeat #f6f5f2;
+        background-size:80px 80px;
+        height: 80px;
         line-height: 20px;
         word-break: break-all;
+    }
+    .new-content .footend p {
+        line-height: 22px;
     }
 
     .new-share {
@@ -320,11 +329,9 @@
                 <p>
                     <em></em>
                     <span>您现在的位置是：</span>
-                    <a href="">首页</a>
+                    <a href="/">首页</a>
                     &nbsp;&gt;&nbsp;
-                    <a href="">技术积累</a>
-                    &nbsp;&gt;&nbsp;
-                    <a href="">Linux杂谈</a>
+                    <a href="javascript:;">技术杂谈</a>
                 </p>
             </div>
             <h2 class="new-title">{$article.title}</h2>
@@ -334,10 +341,8 @@
                 <span class="right-float article_comment"><b>{$rowCount}</b>条评论</span>
             </div>
             <div class="new-tag">
-                <span>php</span>
-                <span>mysql</span>
-                <span>linux</span>
-                <span>nginx</span>
+                <span>行业技术</span>
+                <span>最新资讯</span>
             </div>
             <div class="new-desc">
                 <strong>简介：</strong>
@@ -346,25 +351,31 @@
             <div class="new-content">
                 {$article.content}
                 <div class="footend">
-                    第一时间获取智能手机行业新鲜资讯和商业动态，可以访问小编的微博
-                    <a href="http://weibo.com/jiyouh/" target="_blank">http://weibo.com/jiyouh</a>,如果需要小编陪聊也可以在微信里添加好友,搜索「<span>jiyouhcom</span>」，还可以通过手机扫描左方二维码，关注机友汇微信公众号,即可获得机友汇精华内容推送，并参与相关活动。
+                    <p>
+                        我们为了生活奔波，我们疲于应付繁重的工作，但我们依然没有放弃对技术的热爱，只因为它可以改变世界，改变生活。
+                        欢迎添加微信好友互相交流。
+                    </p>
                 </div>
             </div>
             <div class="new-share">
-                <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
-                <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
-                <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
-                <a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
+                <a href="javascript:;" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                <a href="javascript:;" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+                <a href="javascript:;" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+                <a href="javascript:;" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
             </div>
             <div calss="new-next">
-                <p>
-                    上一篇：
-                    <a href="">雷军持自拍杆卖萌 这是小米发布新玩具"小蚁自拍杆"的前奏吗?</a>
-                </p>
-                <p>
-                    下一篇：
-                    <a href="">手机上3D萌熊出没效果的制作过程</a>
-                </p>
+                <notempty name="prevArticle">
+                    <p>
+                        上一篇：
+                        <a href="/Home/Skill/SkillDetail/id/{$prevArticle.id}">{$prevArticle.title}</a>
+                    </p>
+                </notempty>
+                <notempty name="nextArticle">
+                    <p>
+                        下一篇：
+                        <a href="/Home/Skill/SkillDetail/id/{$nextArticle.id}">{$nextArticle.title}</a>
+                    </p>
+                </notempty>
             </div>
             <!-- 评论 -->
             <div class="new-comment">
