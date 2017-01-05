@@ -53,6 +53,11 @@ class IndexController extends BaseController
             $condition['type'] = $article_type;
             $this->assign('article_type', $article_type);
         }
+        $is_recommend = I('get.is_recommend/d');
+        if ($is_recommend > 0) {
+            $condition['is_recommend'] = $is_recommend == 1 ? 1 : 0;
+            $this->assign('is_recommend', $is_recommend);
+        }
         $ctime_begin = I('get.ctime_begin/s');
         if (!empty($ctime_begin)) {
             $condition['create_date'][]  = array('egt', $ctime_begin);
@@ -94,22 +99,22 @@ class IndexController extends BaseController
      */
     public function addArticle()
     {
-        $title = I('post.article_title');
+        $title = I('post.article_title/s');
         if (empty($title)) {
             $this->error('文章标题不能为空！');
         }
 
-        $imgCover = I('post.img_cover');
+        $imgCover = I('post.img_cover/s');
         if (empty($imgCover)) {
             $this->error('封面图片不能为空！');
         }
 
-        $type = I('post.article_type');
+        $type = I('post.article_type/d');
         if ($type < 1) {
             $this->error('文章类型不能为空！');
         }
 
-        $descrption = I('post.article_desc');
+        $descrption = I('post.article_desc/s');
         if (empty($descrption)) {
             $this->error('文章描述不能为空！');
         }
@@ -118,6 +123,9 @@ class IndexController extends BaseController
         if (empty($content)) {
             $this->error('文章内容不能为空！');
         }
+
+        $is_recommend = I('post.is_recommend/d');
+        $is_recommend = $is_recommend == 1 ? 1 : 0;
 
         $data = array(
             'img_cover'        => $imgCover,
@@ -130,7 +138,8 @@ class IndexController extends BaseController
             'create_time'      => time(),
             'create_date'      => date('Y-m-d'),
             'comment_count'    => 0,
-            'visited_count'    => 0
+            'visited_count'    => 0,
+            'is_recommend'     => $is_recommend
         );
 
         $res = $this->articleModel->add($data);
@@ -176,12 +185,16 @@ class IndexController extends BaseController
             $this->error('文章内容不能为空！');
         }
 
+        $is_recommend = I('post.is_recommend/d');
+        $is_recommend = $is_recommend == 1 ? 1 : 0;
+
         $updateData = array(
             'img_cover'        => $imgCover,
             'title'            => $title,
             'desc'             => $descrption,
             'type'             => $type,
             'content'          => $content,
+            'is_recommend'     => $is_recommend
         );
 
         //获取文章详情
