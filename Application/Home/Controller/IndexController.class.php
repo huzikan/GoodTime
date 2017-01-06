@@ -11,6 +11,7 @@ class IndexController extends BaseController
         //设置顶部导航索引
         $this->_tplParam['nav']['index'] = 1;
         $this->assign('_tplParam', $this->_tplParam);
+        $this->initRightSideData();
     }
 
     public function myhome()

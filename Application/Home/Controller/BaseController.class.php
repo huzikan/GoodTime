@@ -30,6 +30,11 @@ class BaseController extends Controller
     public $_tplParam;
 
     /**
+     * 右侧推荐数据
+     */
+    protected $rightSideData;
+
+    /**
      * 文章类型映射
      *
      * @var array
@@ -75,5 +80,62 @@ class BaseController extends Controller
 
     public function _initialize() {
 
+    }
+
+    /**
+     * 初始化侧边栏推荐数据
+     */
+    public function initRightSideData() {
+        $articleModel = M('article');
+        //点击排行
+        $hotArticleList = $articleModel->field('id,title')->limit(6)->order('visited_count desc')->select();
+        //最新排行
+        $lastArticleList = $articleModel->field('id,title')->limit(6)->order('create_time desc')->select();
+        //站长推荐
+        $recommendArticleList = $articleModel->where('is_recommend = 1')->field('id,title')->limit(6)->order('visited_count desc')->select();
+        //获取图文推荐
+        $imageArticleList = $articleModel->where('is_recommend = 1')->limit(6)->order('visited_count desc')->select();
+        $image_articleList = array();
+        if (!empty($imageArticleList)) {
+            foreach ($imageArticleList as $item) {
+                switch ($item['type']) {
+                    //技术杂谈
+                    case 1:
+                        $detailUrl = '/Home/Skill/SkillDetail/id/' . $item['id'];
+                        break;
+                    //工作感悟
+                    case 2:
+                        $detailUrl = '/Home/Work/WorkDetail/id/' . $item['id'];
+                        break;
+                    //生活琐碎
+                    case 3:
+                        $detailUrl = '/Home//SkillDetail/id/' . $item['id'];
+                        break;
+                    //旅行趣事
+                    case 4:
+                        $detailUrl = '/Home/Skill/SkillDetail/id/' . $item['id'];
+                        break;
+                    default:
+                        $detailUrl = '/Home/Skill/SkillDetail/id/' . $item['id'];
+                        break;
+                }
+                $image_articleList[] = array(
+                    'detailUrl'  => $detailUrl,
+                    'imgCover'   => $item['img_cover'],
+                    'createDate' => $item['create_date'],
+                    'typeDesc'   => $this->articleTypeMap[$item['type']],
+                    'title'      => $item['title']
+                );
+            }
+        }
+
+        $this->rightSideData = array(
+            'hotArticleList'       => $hotArticleList,
+            'lastArticleList'      => $lastArticleList,
+            'recommendArticleList' => $recommendArticleList,
+            'imageArticleList'     => $image_articleList
+        );
+
+        $this->assign('rightSideData', $this->rightSideData);
     }
 }

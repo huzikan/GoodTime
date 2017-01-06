@@ -29,32 +29,23 @@
 		</ul>
 		<div class="top-content content-show">
 			<ul>
-				<li><span class="bg-num-1">1</span><a href="">手机的16个惊人小秘密</a></li>
-				<li><span class="bg-num-2">2</span><a href="">你面对的是生活而不是手机</a></li>
-				<li><span class="bg-num-3">3</span><a href="">住在手机里的朋友</a></li>
-				<li><span class="bg-num-all">4</span><a href="">豪雅手机正式发布</a></li>
-				<li><span class="bg-num-all">5</span><a href="">教你怎样用欠费手机拨打电话</a></li>
-				<li><span class="bg-num-all">6</span><a href="">手机的16个惊人小秘密</a></li>
+				<foreach name="rightSideData.hotArticleList" item="article">
+					<li><span class="bg-num-1">{$key + 1}</span><a href="">{$article.title}</a></li>
+				</foreach>
 			</ul>
 		</div>
 		<div class="top-content">
 			<ul>
-				<li><span class="bg-num-1">1</span><a href="">手机的16个惊人小秘密</a></li>
-				<li><span class="bg-num-2">2</span><a href="">你面对的是生活而不是手机</a></li>
-				<li><span class="bg-num-3">3</span><a href="">住在手机里的朋友</a></li>
-				<li><span class="bg-num-all">4</span><a href="">豪雅手机正式发布</a></li>
-				<li><span class="bg-num-all">5</span><a href="">教你怎样用欠费手机拨打电话</a></li>
-				<li><span class="bg-num-all">6</span><a href="">手机的16个惊人小秘密</a></li>
+				<foreach name="rightSideData.lastArticleList" item="article">
+					<li><span class="bg-num-1">{$key + 1}</span><a href="">{$article.title}</a></li>
+				</foreach>
 			</ul>
 		</div>
 		<div class="top-content">
 			<ul>
-				<li><span class="bg-num-1">1</span><a href="">手机的16个惊人小秘密</a></li>
-				<li><span class="bg-num-2">2</span><a href="">你面对的是生活而不是手机</a></li>
-				<li><span class="bg-num-3">3</span><a href="">住在手机里的朋友</a></li>
-				<li><span class="bg-num-all">4</span><a href="">豪雅手机正式发布</a></li>
-				<li><span class="bg-num-all">5</span><a href="">教你怎样用欠费手机拨打电话</a></li>
-				<li><span class="bg-num-all">6</span><a href="">手机的16个惊人小秘密</a></li>
+				<foreach name="rightSideData.recommendArticleList" item="article">
+					<li><span class="bg-num-1">{$key + 1}</span><a href="">{$article.title}</a></li>
+				</foreach>
 			</ul>
 		</div>
 	</div>
@@ -82,76 +73,22 @@
 	<div class="recommend-wrap">
 		<h3>图文推荐</h3>
 		<ul>
-	        <li>
-	        	<div class="title">
-		        	<a href="#">
-		        		<img src="/public/images/home/06.jpg" alt="">
-						<b>住在手机里的朋友</b>
-		        	</a>
-	        	</div>
-	        	<p>
-	        		<span class="tag-laber">
-        				<a href="/">图说天下</a>
-	        		</span>
-	        		<span class="tag-time">2015-02-15</span>
-	        	</p>
-	        </li>
-	        <li>
-	        	<div class="title">
-		        	<a href="#">
-		        		<img src="/public/images/home/01.jpg" alt="">
-						<b>豪雅手机正式发布</b>
-		        	</a>
-	        	</div>
-	        	<p>
-	        		<span class="tag-laber">
-        				<a href="/">图说天下</a>
-	        		</span>
-	        		<span class="tag-time">2015-02-15</span>
-	        	</p>
-	        </li>
-	        <li>
-	        	<div class="title">
-		        	<a href="#">
-		        		<img src="/public/images/home/02.jpg" alt="">
-						<b>教你怎样用欠费手机拨打电话</b>
-		        	</a>
-	        	</div>
-	        	<p>
-	        		<span class="tag-laber">
-        				<a href="/">图说天下</a>
-	        		</span>
-	        		<span class="tag-time">2015-02-15</span>
-	        	</p>
-	        </li>
-	        <li>
-	        	<div class="title">
-		        	<a href="#">
-		        		<img src="/public/images/home/03.jpg" alt="">
-						<b>手机的16个惊人小秘密</b>
-		        	</a>
-	        	</div>
-	        	<p>
-	        		<span class="tag-laber">
-        				<a href="/">图说天下</a>
-	        		</span>
-	        		<span class="tag-time">2015-02-15</span>
-	        	</p>
-	        </li>
-	        <li>
-	        	<div class="title">
-		        	<a href="#">
-		        		<img src="/public/images/home/04.jpg" alt="">
-						<b>你面对的是生活而不是手机</b>
-		        	</a>
-	        	</div>
-	        	<p>
-	        		<span class="tag-laber">
-        				<a href="/">图说天下</a>
-	        		</span>
-	        		<span class="tag-time">2015-02-15</span>
-	        	</p>
-	        </li>
+			<foreach name="rightSideData.imageArticleList" item="article">
+	        	<li>
+					<div class="title">
+						<a href="{$article.detailUrl}">
+							<img src="{$article.imgCover}" alt="">
+							<b>{$article.title}</b>
+						</a>
+					</div>
+					<p>
+						<span class="tag-laber">
+							<a href="{$article.detailUrl}">{$article.typeDesc}</a>
+						</span>
+						<span class="tag-time">{$article.createDate}</span>
+					</p>
+	        	</li>
+			</foreach>
   		</ul>
 	</div>
 	<!-- 广告位 -->
