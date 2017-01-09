@@ -17,18 +17,56 @@ class WorkController extends BaseController
      */
     public function workList()
     {
-        $this->display('Skill/skillList');
+        $pageIndex = I('get.pageIndex/d');
+        $pageIndex = $pageIndex > 0 ? $pageIndex : 1;
+        //获取首页推荐内容
+        $articleModel = M('article');
+        $work_list = $articleModel->where("type = 2")->page($pageIndex)->limit(10)->order("create_time desc")->select();
+        $workCount = $articleModel->where("type = 2")->count();
+        $workList = array();
+        if (!empty($work_list)) {
+            foreach ($work_list as $item) {
+                $workList[] = array(
+                    'articleId'    => $item['id'],
+                    'title'        => $item['title'],
+                    'desc'         => $item['desc'],
+                    'type'         => $this->articleTypeMap[$item['type']],
+                    'content'      => $item['content'],
+                    'createDate'   => $item['create_date'],
+                    'commentCount' => $item['comment_count'],
+                    'visitedCount' => $item['visited_count'],
+                    'imgCover'     => $item['img_cover']
+                );
+            }
+        }
+        $this->assign('workList', $workList);
+        $this->assign('workCount', $workCount);
+        $this->display('workList');
     }
 
-    /**
-     * 文章详情页
-     */
-    public function workDetail($id)
-    {
-        $article_id = I("get.id/d");
+    public function getWorkList() {
+        $pageIndex = I('get.pageIndex/d');
+        $pageIndex = $pageIndex > 0 ? $pageIndex : 1;
+        //获取首页推荐内容
         $articleModel = M('article');
-        $articleData = $articleModel->find($article_id);
-        $this->assign('article', $articleData);
-        $this->display('Common/detail');
+        $work_list = $articleModel->where("type = 2")->page($pageIndex)->limit(10)->order("create_time desc")->select();
+        $workList = array();
+        if (!empty($work_list)) {
+            foreach ($work_list as $item) {
+                $workList[] = array(
+                    'articleId'    => $item['id'],
+                    'title'        => $item['title'],
+                    'desc'         => $item['desc'],
+                    'type'         => $this->articleTypeMap[$item['type']],
+                    'content'      => $item['content'],
+                    'createDate'   => $item['create_date'],
+                    'commentCount' => $item['comment_count'],
+                    'visitedCount' => $item['visited_count'],
+                    'imgCover'     => $item['img_cover']
+                );
+            }
+        }
+
+        return $this->showMsg($workList, 1);
     }
 }

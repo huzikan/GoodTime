@@ -17,18 +17,55 @@ class LifeController extends BaseController
      */
     public function lifeList()
     {
-        $this->display('Skill/skillList');
+        $pageIndex = I('get.pageIndex/d');
+        $pageIndex = $pageIndex > 0 ? $pageIndex : 1;
+        //获取首页推荐内容
+        $articleModel = M('article');
+        $life_list = $articleModel->where("type = 3")->page($pageIndex)->limit(10)->order("create_time desc")->select();
+        $lifeCount = $articleModel->where("type = 3")->count();
+        $lifeList = array();
+        if (!empty($life_list)) {
+            foreach ($life_list as $item) {
+                $lifeList[] = array(
+                    'articleId'    => $item['id'],
+                    'title'        => $item['title'],
+                    'desc'         => $item['desc'],
+                    'type'         => $this->articleTypeMap[$item['type']],
+                    'content'      => $item['content'],
+                    'createDate'   => $item['create_date'],
+                    'commentCount' => $item['comment_count'],
+                    'visitedCount' => $item['visited_count'],
+                    'imgCover'     => $item['img_cover']
+                );
+            }
+        }
+        $this->assign('lifeList', $lifeList);
+        $this->assign('lifeCount', $lifeCount);
+        $this->display('lifeList');
     }
 
-    /**
-     * 文章详情页
-     */
-    public function lifeDetail($id)
-    {
-        $article_id = I("get.id/d");
+    public function getLifeList() {
+        $pageIndex = I('get.pageIndex/d');
+        $pageIndex = $pageIndex > 0 ? $pageIndex : 1;
+        //获取首页推荐内容
         $articleModel = M('article');
-        $articleData = $articleModel->find($article_id);
-        $this->assign('article', $articleData);
-        $this->display('Common/detail');
+        $life_list = $articleModel->where("type = 3")->page($pageIndex)->limit(10)->order("create_time desc")->select();
+        $lifeList = array();
+        if (!empty($life_list)) {
+            foreach ($life_list as $item) {
+                $lifeList[] = array(
+                    'articleId'    => $item['id'],
+                    'title'        => $item['title'],
+                    'desc'         => $item['desc'],
+                    'type'         => $this->articleTypeMap[$item['type']],
+                    'content'      => $item['content'],
+                    'createDate'   => $item['create_date'],
+                    'commentCount' => $item['comment_count'],
+                    'visitedCount' => $item['visited_count'],
+                    'imgCover'     => $item['img_cover']
+                );
+            }
+        }
+        return $this->showMsg($lifeList, 1);
     }
 }

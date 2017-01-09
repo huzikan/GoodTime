@@ -203,7 +203,7 @@
 						</volist>
 					</ul>
 				</div>
-            	<div class="message-page" pageSize='2' totalSize="{$skillCount}">
+            	<div class="message-page" pageSize='10' totalSize="{$skillCount}">
                 </div>
 			</div>
 		</div>
@@ -313,7 +313,7 @@ $(function(){
                 $.ajax({
                     url: url + '?pageIndex=' + pageIndex,
                     type: 'GET',
-                    dataType: 'json',
+                    dataType: 'json'
                 }).success(function(data) {
                     if (data.success) {
                         callBack(data.data);
@@ -364,7 +364,7 @@ $(function(){
 				</div>\
 			</li>';
             listHtml += listItem;
-        };
+        }
         $(".article-wrap>ul").html(listHtml);
         //回到顶部
         $('html,body').scrollTop($("#article-top").offset().top);

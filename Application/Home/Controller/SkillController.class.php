@@ -21,7 +21,7 @@ class SkillController extends BaseController
         $pageIndex = $pageIndex > 0 ? $pageIndex : 1;
         //获取首页推荐内容
         $articleModel = M('article');
-        $skill_list = $articleModel->where("type = 1")->page($pageIndex)->limit(2)->order("create_time desc")->select();
+        $skill_list = $articleModel->where("type = 1")->page($pageIndex)->limit(10)->order("create_time desc")->select();
         $skillCount = $articleModel->where("type = 1")->count();
         $skillList = array();
         if (!empty($skill_list)) {
@@ -167,7 +167,7 @@ class SkillController extends BaseController
         $pageIndex = $pageIndex > 0 ? $pageIndex : 1;
         //获取首页推荐内容
         $articleModel = M('article');
-        $skill_list = $articleModel->where("type = 1")->page($pageIndex)->limit(2)->order("create_time desc")->select();
+        $skill_list = $articleModel->where("type = 1")->page($pageIndex)->limit(10)->order("create_time desc")->select();
         $skillList = array();
         if (!empty($skill_list)) {
             foreach ($skill_list as $item) {
