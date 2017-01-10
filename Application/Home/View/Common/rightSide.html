@@ -5,16 +5,16 @@
 		<h3>关注我</h3>
 		<ul>
 			<li>
-				<a class="icon-1" href="www.baidu.com" target="_blank">新浪微博</a>
+				<a class="icon-1" href="javascript:;" target="_blank">新浪微博</a>
 			</li>
 			<li>
-				<a class="icon-2" href="www.baidu.com" target="_blank">腾讯微博</a>
+				<a class="icon-2" href="javascript:;" target="_blank">腾讯微博</a>
 			</li>
 			<li>
-				<a class="icon-3" href="www.baidu.com" target="_blank">github</a>
+				<a class="icon-3" href="javascript:;" target="_blank">github</a>
 			</li>
 			<li>
-				<a class="icon-4" href="www.baidu.com" target="_blank">CSDN</a>
+				<a class="icon-4" href="javascript:;" target="_blank">CSDN</a>
 			</li>
 		</ul>
 	</div>
@@ -30,21 +30,21 @@
 		<div class="top-content content-show">
 			<ul>
 				<foreach name="rightSideData.hotArticleList" item="article">
-					<li><span class="bg-num-1">{$key + 1}</span><a href="">{$article.title}</a></li>
+					<li><span class="bg-num-1">{$key + 1}</span><a href="{$article.detailUrl}">{$article.title}</a></li>
 				</foreach>
 			</ul>
 		</div>
 		<div class="top-content">
 			<ul>
 				<foreach name="rightSideData.lastArticleList" item="article">
-					<li><span class="bg-num-1">{$key + 1}</span><a href="">{$article.title}</a></li>
+					<li><span class="bg-num-1">{$key + 1}</span><a href="{$article.detailUrl}">{$article.title}</a></li>
 				</foreach>
 			</ul>
 		</div>
 		<div class="top-content">
 			<ul>
 				<foreach name="rightSideData.recommendArticleList" item="article">
-					<li><span class="bg-num-1">{$key + 1}</span><a href="">{$article.title}</a></li>
+					<li><span class="bg-num-1">{$key + 1}</span><a href="{$article.detailUrl}">{$article.title}</a></li>
 				</foreach>
 			</ul>
 		</div>

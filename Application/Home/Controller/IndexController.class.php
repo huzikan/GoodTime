@@ -81,6 +81,27 @@ class IndexController extends BaseController
         $recommendList = array();
         if (!empty($recommend_list)) {
             foreach ($recommend_list as $item) {
+                switch ($item['type']) {
+                    //技术杂谈
+                    case 1:
+                        $detailUrl = '/Home/Skill/SkillDetail/id/' . $item['id'];
+                        break;
+                    //工作感悟
+                    case 2:
+                        $detailUrl = '/Home/Work/WorkDetail/id/' . $item['id'];
+                        break;
+                    //生活琐碎
+                    case 3:
+                        $detailUrl = '/Home//SkillDetail/id/' . $item['id'];
+                        break;
+                    //旅行趣事
+                    case 4:
+                        $detailUrl = '/Home/Skill/SkillDetail/id/' . $item['id'];
+                        break;
+                    default:
+                        $detailUrl = '/Home/Skill/SkillDetail/id/' . $item['id'];
+                        break;
+                }
                 $recommendList[] = array(
                     'articleId'    => $item['id'],
                     'title'        => $item['title'],
@@ -90,7 +111,8 @@ class IndexController extends BaseController
                     'createDate'   => $item['create_date'],
                     'commentCount' => $item['comment_count'],
                     'visitedCount' => $item['visited_count'],
-                    'imgCover'     => $item['img_cover']
+                    'imgCover'     => $item['img_cover'],
+                    'detailUrl'    => $detailUrl
                 );
             }
         }

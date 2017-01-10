@@ -249,12 +249,12 @@
 						<volist name="recommendList" id="article">
 							<li>
 								<div class="article-img-container">
-									<a href="/home/skill/skilldetail/id/{$article.articleId}">
+									<a href="{$article.detailUrl}">
 										<img class="article-img" src="{$article.imgCover}" alt="">
 									</a>
 								</div>
 								<div class="article-content">
-									<h3><a href="/home/skill/skilldetail/id/{$article.articleId}">{$article.title}</a></h3>
+									<h3><a href="{$article.detailUrl}">{$article.title}</a></h3>
 									<p class="desc">{$article.desc}</p>
 									<p class="tag">
 										<span class="left-float">

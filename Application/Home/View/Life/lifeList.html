@@ -168,17 +168,17 @@
         <div class="banner-wrap">
             <div class="article-container" id="article-top">
                 <div class="article-wrap">
-                    <h2>技术杂谈</h2>
+                    <h2>生活琐碎</h2>
                     <ul>
                         <volist name="lifeList" id="article">
                             <li>
                                 <div class="article-img-container">
-                                    <a href="/home/skill/skilldetail/id/{$article.articleId}">
+                                    <a href="/home/life/lifedetail/id/{$article.articleId}">
                                         <img class="article-img" src="{$article.imgCover}" alt="">
                                     </a>
                                 </div>
                                 <div class="article-content">
-                                    <h3><a href="/home/skill/skilldetail/id/{$article.articleId}">{$article.title}</a></h3>
+                                    <h3><a href="/home/life/lifedetail/id/{$article.articleId}">{$article.title}</a></h3>
                                     <p class="desc">{$article.desc}</p>
                                     <p class="tag">
 									<span class="left-float">
@@ -336,12 +336,12 @@
                 listItem =
                     '<li>\
                     <div class="article-img-container">\
-                        <a href="/home/skill/skilldetail/id/' + list[i].articleId + '">\
+                        <a href="/home/life/lifedetail/id/' + list[i].articleId + '">\
                 <img class="article-img" src="' + list[i].imgCover + '" alt="">\
 					</a>\
 				</div>\
 				<div class="article-content">\
-					<h3><a href="/home/skill/skilldetail/id/' + list[i].articleId + '">' + list[i].title + '</a></h3>\
+					<h3><a href="/home/life/lifedetail/id/' + list[i].articleId + '">' + list[i].title + '</a></h3>\
 					<p class="desc">' + list[i].desc + '</p>\
 					<p class="tag">\
 						<span class="left-float">\

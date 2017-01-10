@@ -10,6 +10,7 @@ class LifeController extends BaseController
         //设置顶部导航索引
         $this->_tplParam['nav']['index'] = 4;
         $this->assign('_tplParam', $this->_tplParam);
+        $this->initRightSideData();
     }
 
     /**
@@ -43,6 +44,58 @@ class LifeController extends BaseController
         $this->assign('lifeCount', $lifeCount);
         $this->display('lifeList');
     }
+
+    /**
+     * 文章详情页
+     */
+    public function lifeDetail($id)
+    {
+        $article_id = I("get.id/d");
+        if ($article_id < 1) {
+            $this->showMsg('无效的文章ID');
+        }
+        $articleModel = M('article');
+        $articleData = $articleModel->find($article_id);
+        if (!empty($articleData)) {
+            $articleData['create_time'] = date('Y-m-d H:i:s', $articleData['create_time']);
+        }
+        //访问数+1
+        $visited_count = ++$articleData['visited_count'];
+        $articleModel->where("id={$article_id}")->setField("visited_count", $visited_count);
+        //获取文章评论
+        $commentModel = M('article_comment');
+        $condition['article_id'] = $article_id;
+        //获取评论列表
+        $commentList = $commentModel->where($condition)->page(1)->limit(5)->order('create_time DESC')->select();
+        $rowCount = $commentModel->where($condition)->count();
+        $comment_list = array();
+        if (!empty($commentList)) {
+            foreach ($commentList as $item) {
+                $comment_list[] = array(
+                    'commentId'  => $item['id'],
+                    'headImg'    => $this->imgArr[$item['id'] % 6],
+                    'userName'   => $item['comment_username'],
+                    'userId'     => $item['comment_userid'],
+                    'content'    => $item['note'],
+                    'time'       => date('Y-m-d H:i:s', $item['create_time']),
+                    'agreeCount' => $item['agree_count'],
+                    'replyCount' => $item['reply_count']
+                );
+            }
+        }
+
+        //获取上一篇文章
+        $prevArticle = $articleModel->where("id < {$article_id}")->field('id,title')->limit(1)->select();
+        $this->assign('prevArticle', $prevArticle[0]);
+        //获取下一篇文章
+        $nextArticle = $articleModel->where("id > {$article_id}")->field('id,title')->limit(1)->select();
+        $this->assign('nextArticle', $nextArticle[0]);
+        $this->assign('commentList', $comment_list);
+        $this->assign('rowCount', $rowCount);
+        $this->assign('article', $articleData);
+        $this->display('Common/detail');
+    }
+
 
     public function getLifeList() {
         $pageIndex = I('get.pageIndex/d');
