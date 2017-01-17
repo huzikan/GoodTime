@@ -565,11 +565,12 @@ $(function(){
                 }
 
                 var sortValue = $(".comment-sort>span").filter(".sort-cur").attr('sort-attr');
+                var articleId = $("#article_id").val();
                 //获取加载数据
                 $.ajax({
-                    url: url + '?pageIndex=' + pageIndex + '&articleId={$article.id}' + '&sortValue=' + sortValue,
+                    url: url + '?pageIndex=' + pageIndex + "&articleId=" + articleId + '&sortValue=' + sortValue,
                     type: 'GET',
-                    dataType: 'json',
+                    dataType: 'json'
                 }).success(function(data) {
                     if (data.success) {
                         callBack(data.data);
@@ -585,7 +586,7 @@ $(function(){
 
     var page = $('.message-page');
     var pageObj = new pageBar(page);
-    pageObj.pageClick(pageObj, '/Home/Message/getmessagelist', function(list){pageDataSwitch(list)});
+    pageObj.pageClick(pageObj, '/Home/Message/getMessageList', function(list){pageDataSwitch(list)});
     function pageDataSwitch(list) {
         var listItem = '',
             listHtml = '';
@@ -642,7 +643,7 @@ $(function(){
                     commentSort.removeClass('sort-cur');
                     commentSort.eq(0).addClass('sort-cur');
                     pageObj = new pageBar(page);
-                    pageObj.pageClick(pageObj, '/Home/Message/getmessagelist', function(list){pageDataSwitch(list)});
+                    pageObj.pageClick(pageObj, '/Home/Message/getMessageList', function(list){pageDataSwitch(list)});
                     //触发评论首页的单击事件
                     $('.message-page>a').eq(1).click();
                 } else {

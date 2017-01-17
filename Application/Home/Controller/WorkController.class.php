@@ -50,7 +50,7 @@ class WorkController extends BaseController
      */
     public function workDetail($id)
     {
-        $article_id = I("get.id/d");
+        $article_id = intval($id);
         if ($article_id < 1) {
             $this->showMsg('无效的文章ID');
         }
